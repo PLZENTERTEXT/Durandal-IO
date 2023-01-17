@@ -6,7 +6,7 @@
 <head runat="server">
     <title></title>
     <style>
-        body { /*Issue, body does not encompasses whole page*/
+        body { /*Issue, body does not encompasses whole page, solving it tmr*/
             height: 100%;
             width: 100%;
             overflow: hidden;               /*So that it doesn't overflow*/
