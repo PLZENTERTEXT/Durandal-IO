@@ -67,10 +67,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="DURANDAL_IO_LOGO-removebg-preview.png" />
+    <Content Include="Images\DURANDAL_IO_Logo.png" />
+    <Content Include="Images\Herrscher of Truth Wallpaper.png" />
     <Content Include="login.aspx" />
     <Content Include="Main.css" />
-    <Content Include="wave.svg" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

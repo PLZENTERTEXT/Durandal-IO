@@ -4,118 +4,8 @@
 
 <html>
 <head runat="server">
-    <title></title>
-    <style>
-        body { /*Issue, body does not encompasses whole page, solving it tmr*/
-            height: 100%;
-            width: 100%;
-            overflow: hidden;               /*So that it doesn't overflow*/
-            color: #1F2326;
-        }
-
-        .nav-bar {
-            width: 100%;
-            background: #1F2326;
-            font-family: Montserrat;
-            color: white;
-            display: flex;
-            justify-content: flex-start;    /*Move to left*/
-            align-items: center;
-            flex-direction: row;
-            gap: 1em;
-            padding: 1em;
-            position: absolute;             /*Stick to top*/
-            top: 0;
-            left: 0;
-        }
-
-        .icon {
-            width: 50px;
-            height: 50px;
-            border: 0;
-        }
-
-        .material-symbols-rounded {
-          font-variation-settings:
-          'FILL' 1,
-          'wght' 400,
-          'GRAD' 0,
-          'opsz' 48
-          ;
-          font-size: 35px!important; /*Overriding size*/
-          margin-right: 1em;         /*So that it doesn't overflow*/
-        }
-
-        .user-profile-icon {
-            margin-left: auto;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        /*select {
-            -webkit-appearance: none;
-            background: #1F2326;
-            color: white;
-            border: 0;
-            font-size: 17px;
-        }*/
-
-        .dropdown {
-	        float: left;
-	        overflow: hidden;
-		    font-size: 16px;
-		    border: none;
-		    outline: none;
-		    background-color: inherit;
-		    font-family: inherit;
-		    margin: 0;
-	    }
-
-        .dropdown-content {
-	        display: none;
-	        position: absolute;
-	        min-width: 160px;
-	        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-	        z-index: 1;
-        }
-
-	        .dropdown-content a {
-		        float: none;
-		        color: white;
-                background: #1F2326;
-		        padding: 12px 16px;
-		        text-decoration: none;
-		        display: block;
-		        text-align: left;
-	        }
-		        .dropdown-content a:hover {
-			        background-color: #47CBEE;
-                    color: #1F2326;
-		        }
-        .dropdown:hover .dropdown-content {
-            display: block;
-        }
-
-        .content-area {
-            background-color: #1F2326;
-            border-radius: 8px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin: auto;
-            height: 70%;
-            width: 80%; 
-        }
-
-        .wave-background {
-            position: absolute;             /*Stick to bottom*/
-            bottom: 0;
-            left: 0;
-        }
-
-    </style>
-    <%--<link href="Main.css" rel="stylesheet" type="text/css" />--%>
+    <title>DURANDAL IO</title>
+    <link href="Main.css" rel="stylesheet" type="text/css" />
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
@@ -123,55 +13,56 @@
     </asp:ContentPlaceHolder>
 </head>
 <body>
-    
-    <div class="nav-bar">
-        <div>
-            <img class="icon" src="DURANDAL_IO_LOGO-removebg-preview.png" alt="Durandal IO Logo">
-        </div>
-        <div>
-            MAIN
-        </div>
-        <div>
-            ABOUT US
-        </div>
-        <div class="dropdown">
-            <a href="page1.aspx">ELYSIAN REALM</a>
-            <div class="dropdown-content">
-                <a href="page1.aspx">Page 1</a>
-                <a href="#">Page 2</a>
-                <a href="#">Page 3</a>
+    <div class="parent">
+        <div class="nav-bar">
+            <div>
+                <img class="icon" src="./Images/DURANDAL_IO_Logo.png" alt="Durandal IO Logo">
+            </div>
+            <div>
+                MAIN
+            </div>
+            <div>
+                ABOUT US
+            </div>
+            <div class="dropdown">
+                <a href="page1.aspx">ELYSIAN REALM</a>
+                <div class="dropdown-content">
+                    <a href="page1.aspx">Page 1</a>
+                    <a href="#">Page 2</a>
+                    <a href="#">Page 3</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <a href="page1.aspx">EVENTS</a>
+                <div class="dropdown-content">
+                    <a href="page1.aspx">Page 1</a>
+                    <a href="#">Page 2</a>
+                    <a href="#">Page 3</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <a href="page1.aspx">BUILDS</a>
+                <div class="dropdown-content">
+                    <a href="page1.aspx">Page 1</a>
+                    <a href="#">Page 2</a>
+                    <a href="#">Page 3</a>
+                </div>
+            </div>
+            <div class="user-profile-icon">
+                <span class="material-symbols-rounded">
+                    person
+                </span>
             </div>
         </div>
-        <div class="dropdown">
-            <a href="page1.aspx">EVENTS</a>
-            <div class="dropdown-content">
-                <a href="page1.aspx">Page 1</a>
-                <a href="#">Page 2</a>
-                <a href="#">Page 3</a>
+  
+        <form id="form1" runat="server">
+            <div class="parent-content-area">
+                <div class="content-area">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
             </div>
-        </div>
-        <div class="dropdown">
-            <a href="page1.aspx">BUILDS</a>
-            <div class="dropdown-content">
-                <a href="page1.aspx">Page 1</a>
-                <a href="#">Page 2</a>
-                <a href="#">Page 3</a>
-            </div>
-        </div>
-        <div class="user-profile-icon">
-            <span class="material-symbols-rounded">
-                person
-            </span>
-        </div>
+        </form>
     </div>
-    <form id="form1" runat="server">
-        
-        <div class="content-area">
-            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-            </asp:ContentPlaceHolder>
-        </div>
-    </form>
-    <img class="wave-background" src="wave.svg" alt="Wave Background">
-    
 </body>
 </html>
