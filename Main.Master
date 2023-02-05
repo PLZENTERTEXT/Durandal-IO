@@ -57,10 +57,8 @@
   
         <form id="form1" runat="server">
             <div class="parent-content-area">
-                <div class="content-area">
-                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-                    </asp:ContentPlaceHolder>
-                </div>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
             </div>
         </form>
     </div>
