@@ -51,7 +51,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="fit-screen">
         <div class="content-area">
-            <a href="/builds/HoF">
+            <a href="HoF.aspx">
                 <div class="content-box">
                     <!-- So it centers stuff inside the a tag -->
                     <div>

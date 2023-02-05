@@ -67,6 +67,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Images\HoF Portrait.png" />
+    <Content Include="HoF.aspx" />
     <Content Include="Images\Battlesuit_Portrait_Background_%28BIO%29.png" />
     <Content Include="Images\Battlesuit_Portrait_Background_%28IMG%29.png" />
     <Content Include="Images\Battlesuit_Portrait_Background_%28MECH%29.png" />
@@ -74,7 +76,6 @@
     <Content Include="Images\DURANDAL_IO_Logo.png" />
     <Content Include="Images\HoH.png" />
     <Content Include="Images\HoT Portrait.png" />
-    <Content Include="Images\HoF Portrait.png" />
     <Content Include="Images\Herrscher of Truth Wallpaper.png" />
     <Content Include="Images\HoH Portrait.png" />
     <Content Include="Images\Palatinus Equinox Portrait.png" />
@@ -84,6 +85,13 @@
     <Content Include="builds.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="HoF.aspx.cs">
+      <DependentUpon>HoF.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HoF.aspx.designer.cs">
+      <DependentUpon>HoF.aspx</DependentUpon>
+    </Compile>
     <Compile Include="login.aspx.cs">
       <DependentUpon>login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
