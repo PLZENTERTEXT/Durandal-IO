@@ -1,10 +1,21 @@
 ﻿body {
     height: 100%;
     width: 100%;
-    overflow: hidden; /*So that it doesn't overflow*/
+    overflow: scroll;
+    padding: 20px;
     color: #1F2326;
     margin: 0;
     font-family: "Montserrat";
+}
+
+a:any-link {
+    color: white;
+    text-decoration: none;
+}
+
+.builds {
+    color: white;
+    text-decoration: none;
 }
 
 .parent {
@@ -98,10 +109,9 @@
 }
 
 .content-area {
-    background-color: #1F2326;
+    background-color: #1F2326EE;
     border-radius: 8px;
     margin: 3em;
-    opacity: 0.95;
     color: white;
     padding: 2em;
 }

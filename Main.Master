@@ -41,7 +41,7 @@
                 </div>
             </div>
             <div class="dropdown">
-                <a href="page1.aspx">BUILDS</a>
+                <a class="builds" href="builds.aspx">BUILDS</a>
                 <div class="dropdown-content">
                     <a href="page1.aspx">Page 1</a>
                     <a href="#">Page 2</a>
