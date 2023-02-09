@@ -67,6 +67,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Images\HoF_Basic Skill.png" />
+    <Content Include="Images\HoF_Evasion Skill.png" />
+    <Content Include="Images\HoF_Leader_Skill.png" />
+    <Content Include="Images\HoF_Passive Skill.png" />
+    <Content Include="Images\HoF_Special Skill.png" />
+    <Content Include="Images\HoF_Ultimate Skill.png" />
     <Content Include="Images\HoF Portrait.png" />
     <Content Include="HoF.aspx" />
     <Content Include="Images\Battlesuit_Portrait_Background_%28BIO%29.png" />
