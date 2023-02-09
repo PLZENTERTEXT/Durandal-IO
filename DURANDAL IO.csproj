@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Images\Domain_of_Incandescence.png" />
     <Content Include="Images\HoF_Basic Skill.png" />
     <Content Include="Images\HoF_Evasion Skill.png" />
     <Content Include="Images\HoF_Leader_Skill.png" />
@@ -75,18 +76,24 @@
     <Content Include="Images\HoF_Ultimate Skill.png" />
     <Content Include="Images\HoF Portrait.png" />
     <Content Include="HoF.aspx" />
-    <Content Include="Images\Battlesuit_Portrait_Background_%28BIO%29.png" />
-    <Content Include="Images\Battlesuit_Portrait_Background_%28IMG%29.png" />
-    <Content Include="Images\Battlesuit_Portrait_Background_%28MECH%29.png" />
-    <Content Include="Images\Battlesuit_Portrait_Background_%28PSY%29.png" />
     <Content Include="Images\DURANDAL_IO_Logo.png" />
     <Content Include="Images\HoH.png" />
     <Content Include="Images\HoT Portrait.png" />
     <Content Include="Images\Herrscher of Truth Wallpaper.png" />
     <Content Include="Images\HoH Portrait.png" />
     <Content Include="Images\Palatinus Equinox Portrait.png" />
+    <Content Include="Images\Judgement_of_Shamash.png" />
     <Content Include="login.aspx" />
     <Content Include="Main.css" />
+    <Content Include="Images\Stigmata_Kitten Fun_B.png" />
+    <Content Include="Images\Stigmata_Kitten Fun_T.png" />
+    <Content Include="Images\Stigmata_Leeuwenhoek_B.png" />
+    <Content Include="Images\Stigmata_Leeuwenhoek_T.png" />
+    <Content Include="Images\Stigmata_Murata Himeko_B.png" />
+    <Content Include="Images\Stigmata_Murata Himeko_M.png" />
+    <Content Include="Images\Stigmata_Murata Himeko_T.png" />
+    <Content Include="Images\Stigmata_Yodo Dono_M.png" />
+    <Content Include="Images\Stigmata_Thales_M.png" />
     <Content Include="Web.config" />
     <Content Include="builds.aspx" />
   </ItemGroup>
