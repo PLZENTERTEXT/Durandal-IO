@@ -6,22 +6,23 @@
             margin-bottom: 1em;
         }
 
-          .fit-screen {
+        .background-h2 {
+            /*background-color: #47CBEE;
+            color: #1F2326;*/
+            /*width: inherit;*/
+        }
+
+        .fit-screen {
             width: 100vw;
             overflow-y: hidden;
             display: flex;
-            justify-content: center;
+            justify-content: stretch;
             max-width:100vw;
             height: 100vh;
             overflow: scroll;
             display: flex;
-            justify-content: center;
-            align-content: center;
+            align-content: stretch;
             flex-direction: column;
-        }
-
-        .fit-screen ::-webkit-scrollbar {
-            display: none;
         }
 
         .herrscher-info {
@@ -65,9 +66,9 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="fit-screen">
-        <div class="herrscher-info">
+        <div class="herrscher-info" style="margin-top: 8.5em;">
             <h1>Herrscher of Flamescion</h1>
-            <h2>Overview</h2>
+            <div class="background-h2"><h2>Overview</h2></div>
             <table style="margin: 0" cellspacing="0" cellpadding="2px">
                 <tbody>
                     <tr>
@@ -79,6 +80,7 @@
                             <p>Turns into Herrscher form for DPS spike.</p>
                             <p>When HP is below 60%, deals 35% more Fire DMG.</p>
                         </td>
+                        <td><img src="./Images/HoF_Chart.png" alt="HoF Chart" width="250px" height="150px" style="padding-left:2em;" /></td>
                     </tr>
                 </tbody>
             </table>
@@ -90,7 +92,7 @@
                 <tbody>
                     <tr>
                         <td style="align-items: center; justify-content: center; margin: auto; text-align: center;">
-                            <strong>Leader: Nameless Knight-Errant's Path</strong>
+                            <strong>Leader: Nameless Knight-Errant's Path</strong><br />
                             <img src="./Images/HoF_Leader_Skill.png" alt="HoF Leader Skill" width="100px" height="100px" />
                         </td>
                         <td style="padding-left: 1em;">
@@ -101,7 +103,7 @@
                     </tr>
                     <tr>
                         <td class="skill-section">
-                            <strong>Special: Blazing Chariot's Trail</strong>
+                            <strong>Special: Blazing Chariot's Trail</strong><br />
                             <img src="./Images/HoF_Special Skill.png" alt="HoF Special Skill" width="100px" height="100px" />
                         </td>
                         <td class="description">
@@ -117,7 +119,7 @@
                     </tr>
                     <tr>
                         <td class="skill-section">
-                            <strong>Passive: Fiery Hymn's Pledge</strong>
+                            <strong>Passive: Fiery Hymn's Pledge</strong><br />
                             <img src="./Images/HoF_Passive Skill.png" alt="HoF Passive Skill" width="100px" height="100px" />
                         </td>
                         <td class="description">
@@ -131,7 +133,7 @@
                     </tr>
                     <tr>
                         <td class="skill-section">
-                            <strong>Ultimate: The Blade Supreme, Rekindled</strong>
+                            <strong>Ultimate: The Blade Supreme, Rekindled</strong><br />
                             <img src="./Images/HoF_Ultimate Skill.png" alt="HoF Ultimate Skill" width="100px" height="100px" />
                         </td>
                         <td class="description">
@@ -146,7 +148,7 @@
                     </tr>
                     <tr>
                         <td class="skill-section">
-                            <strong>Evasion: Lone Phoenix's Plume</strong>
+                            <strong>Evasion: Lone Phoenix's Plume</strong><br />
                             <img src="./Images/HoF_Evasion Skill.png" alt="HoF Evasion Skill" width="100px" height="100px" />
                         </td>
                         <td class="description">
@@ -162,7 +164,7 @@
                     </tr>
                     <tr>
                         <td class="skill-section">
-                            <strong>Basic: Tempered Warrior's Strike</strong>
+                            <strong>Basic: Tempered Warrior's Strike</strong><br />
                             <img src="./Images/HoF_Basic Skill.png" alt="HoF Basic Skill" width="100px" height="100px" />
                         </td>
                         <td class="description">
@@ -424,8 +426,8 @@
                 <div class="controls">
                     <asp:Button ID="ClearButton" runat="server" OnClick="ClearButton_Click" Text="Clear"  />
                     <asp:Button ID="SubmitButton" runat="server" OnClick="SubmitButton_Click" Text="Submit" />
-                </div>--%>
-                <br />
+                </div>
+                <br />--%>
                 <asp:Panel ID="ResultPanel" runat="server" GroupingText="Result">
                     <asp:Label ID="result" runat="server" ></asp:Label>
                 </asp:Panel>

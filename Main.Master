@@ -43,9 +43,10 @@
             <div class="dropdown">
                 <a class="builds" href="builds.aspx">BUILDS</a>
                 <div class="dropdown-content">
-                    <a href="page1.aspx">Page 1</a>
-                    <a href="#">Page 2</a>
-                    <a href="#">Page 3</a>
+                    <a href="HoF.aspx">Herrscher of Flamescion</a>
+                    <a href="#">Herrscher of Human: Ego</a>
+                    <a href="#">Herrscher of Truth</a>
+                    <a href="#">Palatinus Equinox</a>
                 </div>
             </div>
             <div class="user-profile-icon">

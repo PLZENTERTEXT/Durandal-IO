@@ -15,13 +15,15 @@
         }
 
         .fit-screen {
-           /* width: 100vw;
+            width: 100vw;
             overflow-y: hidden;
             display: flex;
-            justify-content: center;*/
-            max-width:100vw;
+            justify-content: center;
+            /*min-width: 262px;
+            max-width:100vw;*/
             height: 100vh;
-            overflow: scroll;
+            min-height: 455px;
+            overflow: hidden;
             display: grid;
             justify-content: center;
             grid-template-columns: repeat(auto-fit,minmax(264px,1fr));
@@ -31,13 +33,6 @@
         .fit-screen ::-webkit-scrollbar {
             display: none;
         }
-
-
-   /*     @media screen and (max-width:400px) {
-            .fit-screen {
-                grid-template-columns: 100%;
-            }
-        }*/
 
         .content-box {
             display:flex;
