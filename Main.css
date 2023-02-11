@@ -1,0 +1,124 @@
+﻿body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden; /*So that it doesn't overflow*/
+    color: #1F2326;
+    margin: 0;
+    font-family: "Montserrat";
+}
+
+.parent {
+    background-image: url("./Images/Herrscher of Truth Wallpaper.png");
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.nav-bar {
+    width: 100%;
+    background: #1F2326;
+    font-family: Montserrat;
+    color: white;
+    display: flex;
+    justify-content: flex-start; /*Move to left*/
+    align-items: center;
+    flex-direction: row;
+    gap: 1em;
+    padding: 1em;
+    position: fixed; /*Stick to top when scrolled*/
+    top: 0;
+    left: 0;
+    animation: 1s fadein;
+    z-index: 2; /*Goes closer to face - Layer (3D) */
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    border: 0;
+}
+
+.material-symbols-rounded {
+    font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 48;
+    font-size: 35px !important; /*Overriding size*/
+    margin-right: 1em; /*So that it doesn't overflow*/
+}
+
+.user-profile-icon {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+    .dropdown-content a {
+        float: none;
+        color: white;
+        background: #1F2326;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+    }
+
+        .dropdown-content a:hover {
+            background-color: #47CBEE;
+            color: #1F2326;
+        }
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.parent-content-area {
+    padding-top: 4em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-area {
+    background-color: #1F2326;
+    border-radius: 8px;
+    margin: 3em;
+    opacity: 0.95;
+    color: white;
+    padding: 2em;
+}
+
+.wave-background {
+    position: absolute; /*Stick to bottom*/
+    bottom: 0;
+    left: 0;
+}
+
+/* Fade in animation */
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
