@@ -67,13 +67,44 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Images\HoF_Chart.png" />
+    <Content Include="Images\HoH Portrait.png" />
+    <Content Include="Images\HoT Portrait.png" />
+    <Content Include="Images\Domain_of_Incandescence.png" />
+    <Content Include="Images\HoF_Basic Skill.png" />
+    <Content Include="Images\HoF_Evasion Skill.png" />
+    <Content Include="Images\HoF_Leader_Skill.png" />
+    <Content Include="Images\HoF_Passive Skill.png" />
+    <Content Include="Images\HoF_Special Skill.png" />
+    <Content Include="Images\HoF_Ultimate Skill.png" />
+    <Content Include="Images\HoF Portrait.png" />
+    <Content Include="HoF.aspx" />
     <Content Include="Images\DURANDAL_IO_Logo.png" />
     <Content Include="Images\Herrscher of Truth Wallpaper.png" />
+    <Content Include="Images\Judgement_of_Shamash.png" />
     <Content Include="login.aspx" />
     <Content Include="Main.css" />
+    <Content Include="Images\Stigmata_Kitten Fun_B.png" />
+    <Content Include="Images\Stigmata_Kitten Fun_T.png" />
+    <Content Include="Images\Stigmata_Leeuwenhoek_B.png" />
+    <Content Include="Images\Stigmata_Leeuwenhoek_T.png" />
+    <Content Include="Images\Stigmata_Murata Himeko_B.png" />
+    <Content Include="Images\Stigmata_Murata Himeko_M.png" />
+    <Content Include="Images\Stigmata_Murata Himeko_T.png" />
+    <Content Include="Images\Stigmata_Yodo Dono_M.png" />
+    <Content Include="Images\Stigmata_Thales_M.png" />
+    <Content Include="Images\Palatinus Equinox Portrait.png" />
     <Content Include="Web.config" />
+    <Content Include="builds.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="HoF.aspx.cs">
+      <DependentUpon>HoF.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HoF.aspx.designer.cs">
+      <DependentUpon>HoF.aspx</DependentUpon>
+    </Compile>
     <Compile Include="login.aspx.cs">
       <DependentUpon>login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -89,6 +120,13 @@
       <DependentUpon>Main.Master</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="builds.aspx.cs">
+      <DependentUpon>builds.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="builds.aspx.designer.cs">
+      <DependentUpon>builds.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Main.Master" />

@@ -41,11 +41,12 @@
                 </div>
             </div>
             <div class="dropdown">
-                <a href="page1.aspx">BUILDS</a>
+                <a class="builds" href="builds.aspx">BUILDS</a>
                 <div class="dropdown-content">
-                    <a href="page1.aspx">Page 1</a>
-                    <a href="#">Page 2</a>
-                    <a href="#">Page 3</a>
+                    <a href="HoF.aspx">Herrscher of Flamescion</a>
+                    <a href="#">Herrscher of Human: Ego</a>
+                    <a href="#">Herrscher of Truth</a>
+                    <a href="#">Palatinus Equinox</a>
                 </div>
             </div>
             <div class="user-profile-icon">
@@ -57,10 +58,8 @@
   
         <form id="form1" runat="server">
             <div class="parent-content-area">
-                <div class="content-area">
-                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-                    </asp:ContentPlaceHolder>
-                </div>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
             </div>
         </form>
     </div>
