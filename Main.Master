@@ -51,7 +51,7 @@
             </div>
             <div class="user-profile-icon">
                 <span class="material-symbols-rounded">
-                    person
+                    <a href="login.aspx">person</a>
                 </span>
             </div>
         </div>

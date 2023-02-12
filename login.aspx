@@ -19,6 +19,7 @@
             background-color: #1F2326EE;
             border-radius: 8px;
             margin: 3em;
+            margin-top: 8.5em;
             color: white;
             padding: 2em;
             display: flex;
@@ -30,34 +31,34 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="fit-screen">
-        <div class="login-info" style="margin-top: 8.5em;">
+        <div class="login-info">
             <h1>Login Page</h1>
-            <a href="memberRegistration.aspx">Not Yet Register?</a>
+            <a href="memberRegistration.aspx" style="padding:1em; background-color:#47CBEE; color:#1F2326;">Sign Up</a>
             <br />
             <br />
             <table>
                 <tr>
-                    <td>
-                        <asp:Label ID="Label2" runat="server" Text="Username:"></asp:Label>
-                    </td>
+                    <td>Username</td>
+                    <td>:</td>
                     <td>
                         <asp:TextBox ID="username" runat="server" Width="281px"></asp:TextBox>
                     </td>
                 </tr>
                 <tr>
-                    <td>
-                        <asp:Label ID="Label3" runat="server" Text="Password:"></asp:Label>
-                    </td>
+                    <td>Password</td>
+                    <td>:</td>
                     <td>
                         <asp:TextBox ID="pwd" runat="server" Width="281px"></asp:TextBox>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Sign In" />
+                        <br /><asp:Button ID="Button1" runat="server" OnClick="SignInButton_Click" Text="Sign In" />
                     </td>
                     <td>
-                        <asp:Label ID="errorMsg" runat="server" Text="[errorMsg]"></asp:Label>
+                    </td>
+                    <td>
+                        <br /><asp:Label ID="errorMsg" runat="server" Text="[errorMsg]" Visible="False"></asp:Label>
                     </td>
                 </tr>
                 </table>

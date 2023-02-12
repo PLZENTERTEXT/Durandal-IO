@@ -67,6 +67,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="adminDashboard.aspx" />
+    <Content Include="adminRegistration.aspx" />
     <Content Include="App_Data\users.mdf" />
     <Content Include="App_Data\users_log.ldf">
       <DependentUpon>users.mdf</DependentUpon>
@@ -98,10 +100,26 @@
     <Content Include="Images\Stigmata_Yodo Dono_M.png" />
     <Content Include="Images\Stigmata_Thales_M.png" />
     <Content Include="Images\Palatinus Equinox Portrait.png" />
+    <Content Include="memberDashboard.aspx" />
+    <Content Include="memberRegistration.aspx" />
     <Content Include="Web.config" />
     <Content Include="builds.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="adminDashboard.aspx.cs">
+      <DependentUpon>adminDashboard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adminDashboard.aspx.designer.cs">
+      <DependentUpon>adminDashboard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="adminRegistration.aspx.cs">
+      <DependentUpon>adminRegistration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adminRegistration.aspx.designer.cs">
+      <DependentUpon>adminRegistration.aspx</DependentUpon>
+    </Compile>
     <Compile Include="HoF.aspx.cs">
       <DependentUpon>HoF.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -122,6 +140,20 @@
     </Compile>
     <Compile Include="Main.Master.designer.cs">
       <DependentUpon>Main.Master</DependentUpon>
+    </Compile>
+    <Compile Include="memberDashboard.aspx.cs">
+      <DependentUpon>memberDashboard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="memberDashboard.aspx.designer.cs">
+      <DependentUpon>memberDashboard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="memberRegistration.aspx.cs">
+      <DependentUpon>memberRegistration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="memberRegistration.aspx.designer.cs">
+      <DependentUpon>memberRegistration.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="builds.aspx.cs">

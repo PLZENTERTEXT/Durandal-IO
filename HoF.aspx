@@ -6,11 +6,12 @@
             margin-bottom: 1em;
         }
 
-        .background-h2 {
-            /*background-color: #47CBEE;
-            color: #1F2326;*/
-            /*width: inherit;*/
-        }
+        /*.background-h2 {
+            padding-right:5em;
+            padding-left:5em;
+            background-color:#47CBEE;
+            color:#1F2326;
+        }*/
 
         .fit-screen {
             width: 100vw;

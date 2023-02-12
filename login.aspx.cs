@@ -16,7 +16,7 @@ namespace DURANDAL_IO
 
         }
 
-        protected void Button1_Click(object sender, EventArgs e)
+        protected void SignInButton_Click(object sender, EventArgs e)
         {
             SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["ConnectionString"].ConnectionString);
             con.Open();
