@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Security.Cryptography;
@@ -11,13 +12,10 @@ namespace DURANDAL_IO
 {
     public partial class elysianRealmMain : System.Web.UI.Page
     {
-        bool showPostButton = false;
-
         protected void Page_Load(object sender, EventArgs e)
         {
 
         }
-
 
         protected void showD1_Click(object sender, EventArgs e)
         {
@@ -220,26 +218,7 @@ namespace DURANDAL_IO
 
         protected void showPostComment_Click(object sender, EventArgs e)
         {
-            postingComment.Visible = !postingComment.Visible;
-            showPostButton = !showPostButton;
-            if (showPostButton)
-            {
-                showPostComment.Text = "Click me to hide post section.";
-            }
-            else
-            {
-                showPostComment.Text = "Click Me to Post Comments";
-            }
+            Response.Redirect("forum.aspx");
         }
-
-        protected void clickToShowComment_Click(object sender, EventArgs e)
-        {
-            showComment.Visible = !showComment.Visible;
-            clickToShowComment.Visible = false;
-
-
-        }
-
-
     }
 }
