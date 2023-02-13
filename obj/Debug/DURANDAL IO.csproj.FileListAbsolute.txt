@@ -1,0 +1,118 @@
+C:\Users\shiau\OneDrive - Asia Pacific University\DEGREE\Y2\WAPP\DURANDAL IO\bin\DURANDAL IO.dll.config
+C:\Users\shiau\OneDrive - Asia Pacific University\DEGREE\Y2\WAPP\DURANDAL IO\bin\DURANDAL IO.dll
+C:\Users\shiau\OneDrive - Asia Pacific University\DEGREE\Y2\WAPP\DURANDAL IO\bin\DURANDAL IO.pdb
+C:\Users\shiau\OneDrive - Asia Pacific University\DEGREE\Y2\WAPP\DURANDAL IO\bin\roslyn\csc.exe
+C:\Users\shiau\OneDrive - Asia Pacific University\DEGREE\Y2\WAPP\DURANDAL IO\bin\roslyn\csc.exe.config
+C:\Users\shiau\OneDrive - Asia Pacific University\DEGREE\Y2\WAPP\DURANDAL IO\bin\roslyn\csc.rsp
+C:\Users\shiau\OneDrive - Asia Pacific University\DEGREE\Y2\WAPP\DURANDAL IO\bin\roslyn\csi.exe
+C:\Users\shiau\OneDrive - Asia Pacific University\DEGREE\Y2\WAPP\DURANDAL IO\bin\roslyn\csi.exe.config
+C:\Users\shiau\OneDrive - Asia Pacific University\DEGREE\Y2\WAPP\DURANDAL IO\bin\roslyn\csi.rsp
+C:\Users\shiau\OneDrive - Asia Pacific University\DEGREE\Y2\WAPP\DURANDAL IO\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\shiau\OneDrive - Asia Pacific University\DEGREE\Y2\WAPP\DURANDAL IO\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\shiau\OneDrive - Asia Pacific University\DEGREE\Y2\WAPP\DURANDAL IO\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\shiau\OneDrive - Asia Pacific University\DEGREE\Y2\WAPP\DURANDAL IO\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\shiau\OneDrive - Asia Pacific University\DEGREE\Y2\WAPP\DURANDAL IO\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\shiau\OneDrive - Asia Pacific University\DEGREE\Y2\WAPP\DURANDAL IO\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\shiau\OneDrive - Asia Pacific University\DEGREE\Y2\WAPP\DURANDAL IO\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\shiau\OneDrive - Asia Pacific University\DEGREE\Y2\WAPP\DURANDAL IO\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\shiau\OneDrive - Asia Pacific University\DEGREE\Y2\WAPP\DURANDAL IO\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\shiau\OneDrive - Asia Pacific University\DEGREE\Y2\WAPP\DURANDAL IO\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\shiau\OneDrive - Asia Pacific University\DEGREE\Y2\WAPP\DURANDAL IO\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\shiau\OneDrive - Asia Pacific University\DEGREE\Y2\WAPP\DURANDAL IO\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\shiau\OneDrive - Asia Pacific University\DEGREE\Y2\WAPP\DURANDAL IO\bin\roslyn\System.AppContext.dll
+C:\Users\shiau\OneDrive - Asia Pacific University\DEGREE\Y2\WAPP\DURANDAL IO\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\shiau\OneDrive - Asia Pacific University\DEGREE\Y2\WAPP\DURANDAL IO\bin\roslyn\System.Console.dll
+C:\Users\shiau\OneDrive - Asia Pacific University\DEGREE\Y2\WAPP\DURANDAL IO\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\shiau\OneDrive - Asia Pacific University\DEGREE\Y2\WAPP\DURANDAL IO\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\shiau\OneDrive - Asia Pacific University\DEGREE\Y2\WAPP\DURANDAL IO\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\shiau\OneDrive - Asia Pacific University\DEGREE\Y2\WAPP\DURANDAL IO\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\shiau\OneDrive - Asia Pacific University\DEGREE\Y2\WAPP\DURANDAL IO\bin\roslyn\System.IO.Compression.dll
+C:\Users\shiau\OneDrive - Asia Pacific University\DEGREE\Y2\WAPP\DURANDAL IO\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\shiau\OneDrive - Asia Pacific University\DEGREE\Y2\WAPP\DURANDAL IO\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\shiau\OneDrive - Asia Pacific University\DEGREE\Y2\WAPP\DURANDAL IO\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\shiau\OneDrive - Asia Pacific University\DEGREE\Y2\WAPP\DURANDAL IO\bin\roslyn\System.Net.Http.dll
+C:\Users\shiau\OneDrive - Asia Pacific University\DEGREE\Y2\WAPP\DURANDAL IO\bin\roslyn\System.Net.Sockets.dll
+C:\Users\shiau\OneDrive - Asia Pacific University\DEGREE\Y2\WAPP\DURANDAL IO\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\shiau\OneDrive - Asia Pacific University\DEGREE\Y2\WAPP\DURANDAL IO\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\shiau\OneDrive - Asia Pacific University\DEGREE\Y2\WAPP\DURANDAL IO\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\shiau\OneDrive - Asia Pacific University\DEGREE\Y2\WAPP\DURANDAL IO\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\shiau\OneDrive - Asia Pacific University\DEGREE\Y2\WAPP\DURANDAL IO\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\shiau\OneDrive - Asia Pacific University\DEGREE\Y2\WAPP\DURANDAL IO\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\shiau\OneDrive - Asia Pacific University\DEGREE\Y2\WAPP\DURANDAL IO\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\shiau\OneDrive - Asia Pacific University\DEGREE\Y2\WAPP\DURANDAL IO\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\shiau\OneDrive - Asia Pacific University\DEGREE\Y2\WAPP\DURANDAL IO\bin\roslyn\System.ValueTuple.dll
+C:\Users\shiau\OneDrive - Asia Pacific University\DEGREE\Y2\WAPP\DURANDAL IO\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\shiau\OneDrive - Asia Pacific University\DEGREE\Y2\WAPP\DURANDAL IO\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\shiau\OneDrive - Asia Pacific University\DEGREE\Y2\WAPP\DURANDAL IO\bin\roslyn\System.Xml.XPath.dll
+C:\Users\shiau\OneDrive - Asia Pacific University\DEGREE\Y2\WAPP\DURANDAL IO\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\shiau\OneDrive - Asia Pacific University\DEGREE\Y2\WAPP\DURANDAL IO\bin\roslyn\vbc.exe
+C:\Users\shiau\OneDrive - Asia Pacific University\DEGREE\Y2\WAPP\DURANDAL IO\bin\roslyn\vbc.exe.config
+C:\Users\shiau\OneDrive - Asia Pacific University\DEGREE\Y2\WAPP\DURANDAL IO\bin\roslyn\vbc.rsp
+C:\Users\shiau\OneDrive - Asia Pacific University\DEGREE\Y2\WAPP\DURANDAL IO\bin\roslyn\VBCSCompiler.exe
+C:\Users\shiau\OneDrive - Asia Pacific University\DEGREE\Y2\WAPP\DURANDAL IO\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\shiau\OneDrive - Asia Pacific University\DEGREE\Y2\WAPP\DURANDAL IO\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\shiau\OneDrive - Asia Pacific University\DEGREE\Y2\WAPP\DURANDAL IO\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\shiau\OneDrive - Asia Pacific University\DEGREE\Y2\WAPP\DURANDAL IO\obj\Debug\DURANDAL IO.csproj.AssemblyReference.cache
+C:\Users\shiau\OneDrive - Asia Pacific University\DEGREE\Y2\WAPP\DURANDAL IO\obj\Debug\DURANDAL IO.csproj.CoreCompileInputs.cache
+C:\Users\shiau\OneDrive - Asia Pacific University\DEGREE\Y2\WAPP\DURANDAL IO\obj\Debug\DURANDAL IO.csproj.CopyComplete
+C:\Users\shiau\OneDrive - Asia Pacific University\DEGREE\Y2\WAPP\DURANDAL IO\obj\Debug\DURANDAL IO.dll
+C:\Users\shiau\OneDrive - Asia Pacific University\DEGREE\Y2\WAPP\DURANDAL IO\obj\Debug\DURANDAL IO.pdb
+C:\Users\User\Desktop\Durandal-IO-main\Durandal-IO-main\bin\DURANDAL IO.dll.config
+C:\Users\User\Desktop\Durandal-IO-main\Durandal-IO-main\bin\DURANDAL IO.dll
+C:\Users\User\Desktop\Durandal-IO-main\Durandal-IO-main\bin\DURANDAL IO.pdb
+C:\Users\User\Desktop\Durandal-IO-main\Durandal-IO-main\bin\roslyn\csc.exe
+C:\Users\User\Desktop\Durandal-IO-main\Durandal-IO-main\bin\roslyn\csc.exe.config
+C:\Users\User\Desktop\Durandal-IO-main\Durandal-IO-main\bin\roslyn\csc.rsp
+C:\Users\User\Desktop\Durandal-IO-main\Durandal-IO-main\bin\roslyn\csi.exe
+C:\Users\User\Desktop\Durandal-IO-main\Durandal-IO-main\bin\roslyn\csi.exe.config
+C:\Users\User\Desktop\Durandal-IO-main\Durandal-IO-main\bin\roslyn\csi.rsp
+C:\Users\User\Desktop\Durandal-IO-main\Durandal-IO-main\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\User\Desktop\Durandal-IO-main\Durandal-IO-main\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\User\Desktop\Durandal-IO-main\Durandal-IO-main\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\User\Desktop\Durandal-IO-main\Durandal-IO-main\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\User\Desktop\Durandal-IO-main\Durandal-IO-main\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\User\Desktop\Durandal-IO-main\Durandal-IO-main\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\User\Desktop\Durandal-IO-main\Durandal-IO-main\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\User\Desktop\Durandal-IO-main\Durandal-IO-main\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\User\Desktop\Durandal-IO-main\Durandal-IO-main\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\User\Desktop\Durandal-IO-main\Durandal-IO-main\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\User\Desktop\Durandal-IO-main\Durandal-IO-main\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\User\Desktop\Durandal-IO-main\Durandal-IO-main\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\User\Desktop\Durandal-IO-main\Durandal-IO-main\bin\roslyn\System.AppContext.dll
+C:\Users\User\Desktop\Durandal-IO-main\Durandal-IO-main\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\User\Desktop\Durandal-IO-main\Durandal-IO-main\bin\roslyn\System.Console.dll
+C:\Users\User\Desktop\Durandal-IO-main\Durandal-IO-main\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\User\Desktop\Durandal-IO-main\Durandal-IO-main\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\User\Desktop\Durandal-IO-main\Durandal-IO-main\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\User\Desktop\Durandal-IO-main\Durandal-IO-main\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\User\Desktop\Durandal-IO-main\Durandal-IO-main\bin\roslyn\System.IO.Compression.dll
+C:\Users\User\Desktop\Durandal-IO-main\Durandal-IO-main\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\User\Desktop\Durandal-IO-main\Durandal-IO-main\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\User\Desktop\Durandal-IO-main\Durandal-IO-main\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\User\Desktop\Durandal-IO-main\Durandal-IO-main\bin\roslyn\System.Net.Http.dll
+C:\Users\User\Desktop\Durandal-IO-main\Durandal-IO-main\bin\roslyn\System.Net.Sockets.dll
+C:\Users\User\Desktop\Durandal-IO-main\Durandal-IO-main\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\User\Desktop\Durandal-IO-main\Durandal-IO-main\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\User\Desktop\Durandal-IO-main\Durandal-IO-main\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\User\Desktop\Durandal-IO-main\Durandal-IO-main\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\User\Desktop\Durandal-IO-main\Durandal-IO-main\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\User\Desktop\Durandal-IO-main\Durandal-IO-main\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\User\Desktop\Durandal-IO-main\Durandal-IO-main\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\User\Desktop\Durandal-IO-main\Durandal-IO-main\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\User\Desktop\Durandal-IO-main\Durandal-IO-main\bin\roslyn\System.ValueTuple.dll
+C:\Users\User\Desktop\Durandal-IO-main\Durandal-IO-main\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\User\Desktop\Durandal-IO-main\Durandal-IO-main\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\User\Desktop\Durandal-IO-main\Durandal-IO-main\bin\roslyn\System.Xml.XPath.dll
+C:\Users\User\Desktop\Durandal-IO-main\Durandal-IO-main\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\User\Desktop\Durandal-IO-main\Durandal-IO-main\bin\roslyn\vbc.exe
+C:\Users\User\Desktop\Durandal-IO-main\Durandal-IO-main\bin\roslyn\vbc.exe.config
+C:\Users\User\Desktop\Durandal-IO-main\Durandal-IO-main\bin\roslyn\vbc.rsp
+C:\Users\User\Desktop\Durandal-IO-main\Durandal-IO-main\bin\roslyn\VBCSCompiler.exe
+C:\Users\User\Desktop\Durandal-IO-main\Durandal-IO-main\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\User\Desktop\Durandal-IO-main\Durandal-IO-main\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\User\Desktop\Durandal-IO-main\Durandal-IO-main\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\User\Desktop\Durandal-IO-main\Durandal-IO-main\obj\Debug\DURANDAL IO.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Durandal-IO-main\Durandal-IO-main\obj\Debug\DURANDAL IO.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Durandal-IO-main\Durandal-IO-main\obj\Debug\DURANDAL IO.csproj.CopyComplete
+C:\Users\User\Desktop\Durandal-IO-main\Durandal-IO-main\obj\Debug\DURANDAL IO.dll
+C:\Users\User\Desktop\Durandal-IO-main\Durandal-IO-main\obj\Debug\DURANDAL IO.pdb
