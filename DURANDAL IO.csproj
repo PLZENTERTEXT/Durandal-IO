@@ -73,6 +73,7 @@
     <Content Include="App_Data\users_log.ldf">
       <DependentUpon>users.mdf</DependentUpon>
     </Content>
+    <Content Include="editUserProfile.aspx" />
     <Content Include="Images\HoF_Chart.png" />
     <Content Include="Images\HoH Portrait.png" />
     <Content Include="Images\HoT Portrait.png" />
@@ -119,6 +120,13 @@
     </Compile>
     <Compile Include="adminRegistration.aspx.designer.cs">
       <DependentUpon>adminRegistration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="editUserProfile.aspx.cs">
+      <DependentUpon>editUserProfile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="editUserProfile.aspx.designer.cs">
+      <DependentUpon>editUserProfile.aspx</DependentUpon>
     </Compile>
     <Compile Include="HoF.aspx.cs">
       <DependentUpon>HoF.aspx</DependentUpon>
@@ -173,6 +181,9 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ProfilePic\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
