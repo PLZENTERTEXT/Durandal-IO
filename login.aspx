@@ -1,13 +1,12 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Main.Master" AutoEventWireup="true" CodeBehind="login.aspx.cs" Inherits="DURANDAL_IO.login" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-    <title></title>
     <style type="text/css">
         .fit-screen {
             width: 100vw;
             overflow-y: hidden;
             display: flex;
             justify-content: stretch;
-            max-width:100vw;
+            max-width: 100vw;
             height: 100vh;
             overflow: scroll;
             display: flex;

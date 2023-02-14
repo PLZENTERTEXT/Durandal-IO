@@ -67,13 +67,26 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Images\Abyss_Flower_-_Liminal_Spiral.png" />
+    <Content Include="Images\Abyss_Lance.png" />
     <Content Include="adminDashboard.aspx" />
     <Content Include="adminRegistration.aspx" />
     <Content Include="App_Data\users.mdf" />
     <Content Include="App_Data\users_log.ldf">
       <DependentUpon>users.mdf</DependentUpon>
     </Content>
+    <Content Include="Images\Call_of_Crescent.png" />
+    <Content Include="Images\Domain_of_Ascension_-_Truth_Continuity.png" />
+    <Content Include="Images\Domain_of_Ego_-_Flawless_Return.png" />
     <Content Include="editUserProfile.aspx" />
+    <Content Include="HoT.aspx" />
+    <Content Include="Images\Falcon_Flare_-_FINAL.png" />
+    <Content Include="Images\HoT_Basic Skill.png" />
+    <Content Include="Images\HoT_Evasion Skill.png" />
+    <Content Include="Images\HoT_Leader_Skill.png" />
+    <Content Include="Images\HoT_Passive Skill.png" />
+    <Content Include="Images\HoT_Special Skill.png" />
+    <Content Include="Images\HoT_Ultimate Skill.png" />
     <Content Include="Images\HoF_Chart.png" />
     <Content Include="Images\HoH Portrait.png" />
     <Content Include="Images\HoT Portrait.png" />
@@ -89,6 +102,8 @@
     <Content Include="Images\DURANDAL_IO_Logo.png" />
     <Content Include="Images\Herrscher of Truth Wallpaper.png" />
     <Content Include="Images\Judgement_of_Shamash.png" />
+    <Content Include="Images\Key_of_Ascension.png" />
+    <Content Include="Images\Light_String.png" />
     <Content Include="login.aspx" />
     <Content Include="Main.css" />
     <Content Include="Images\Stigmata_Kitten Fun_B.png" />
@@ -101,8 +116,37 @@
     <Content Include="Images\Stigmata_Yodo Dono_M.png" />
     <Content Include="Images\Stigmata_Thales_M.png" />
     <Content Include="Images\Palatinus Equinox Portrait.png" />
+    <Content Include="Images\Markov_Type_A_.png" />
     <Content Include="memberDashboard.aspx" />
     <Content Include="memberRegistration.aspx" />
+    <Content Include="Images\Stigmata_Beach Party_M.png" />
+    <Content Include="Images\Stigmata_Bianka Theatre_B.png" />
+    <Content Include="Images\Stigmata_Bianka Theatre_M.png" />
+    <Content Include="Images\Stigmata_Bianka Theatre_T.png" />
+    <Content Include="Images\Stigmata_Bronya Zaychik_B.png" />
+    <Content Include="Images\Stigmata_Bronya Zaychik_M.png" />
+    <Content Include="Images\Stigmata_Bronya Zaychik_T.png" />
+    <Content Include="Images\Stigmata_Dante_M.png" />
+    <Content Include="Images\Stigmata_Elysia Pristine_B.png" />
+    <Content Include="Images\Stigmata_Elysia Pristine_M.png" />
+    <Content Include="Images\Stigmata_Elysia Pristine_T.png" />
+    <Content Include="Images\Stigmata_Elysia_B.png" />
+    <Content Include="Images\Stigmata_Elysia_T.png" />
+    <Content Include="Images\Stigmata_Fu Hua - Pride_B.png" />
+    <Content Include="Images\Stigmata_Isaac Newton_B.png" />
+    <Content Include="Images\Stigmata_Jingwei_T.png" />
+    <Content Include="Images\Stigmata_Marco_Polo_M.png" />
+    <Content Include="Images\Stigmata_Scott_B.png" />
+    <Content Include="Images\Stigmata_Scott_M.png" />
+    <Content Include="Images\Stigmata_Scott_T.png" />
+    <Content Include="Images\Stigmata_Turgenev_B.png" />
+    <Content Include="Images\Stigmata_Turgenev_T.png" />
+    <Content Include="Images\Stigmata_Welt Yang_M.png" />
+    <Content Include="Images\Stigmata_Welt Yang_T.png" />
+    <Content Include="Images\Stigmata_Willows_B.png" />
+    <Content Include="Images\Stigmata_Willows_M.png" />
+    <Content Include="Images\Stigmata_Willows_T.png" />
+    <Content Include="Images\Midnight_Ataegina.png" />
     <Content Include="Web.config" />
     <Content Include="builds.aspx" />
   </ItemGroup>
@@ -134,6 +178,13 @@
     </Compile>
     <Compile Include="HoF.aspx.designer.cs">
       <DependentUpon>HoF.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HoT.aspx.cs">
+      <DependentUpon>HoT.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HoT.aspx.designer.cs">
+      <DependentUpon>HoT.aspx</DependentUpon>
     </Compile>
     <Compile Include="login.aspx.cs">
       <DependentUpon>login.aspx</DependentUpon>

@@ -1,31 +1,24 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Main.Master" AutoEventWireup="true" CodeBehind="HoF.aspx.cs" Inherits="DURANDAL_IO.HoF" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-    <style>
+    <style type="text/css">
         img {
             margin-right: 1em;
             margin-bottom: 1em;
         }
-
-        /*.background-h2 {
-            padding-right:5em;
-            padding-left:5em;
-            background-color:#47CBEE;
-            color:#1F2326;
-        }*/
 
         .fit-screen {
             width: 100vw;
             overflow-y: hidden;
             display: flex;
             justify-content: stretch;
-            max-width:100vw;
+            max-width: 100vw;
             height: 100vh;
             overflow: scroll;
             display: flex;
             align-content: stretch;
             flex-direction: column;
         }
-
+        
         .herrscher-info {
             background-color: #1F2326EE;
             border-radius: 8px;
@@ -45,7 +38,7 @@
             padding-top: 3em;
             text-align: center;
         }
-        
+
         .description {
             padding-left: 1em;
             padding-top: 3em;
@@ -69,7 +62,7 @@
     <div class="fit-screen">
         <div class="herrscher-info" style="margin-top: 8.5em;">
             <h1>Herrscher of Flamescion</h1>
-            <div class="background-h2"><h2>Overview</h2></div>
+            <h2>Overview</h2>
             <table style="margin: 0" cellspacing="0" cellpadding="2px">
                 <tbody>
                     <tr>
@@ -364,71 +357,6 @@
                     <asp:Button ID="Button1" runat="server" OnClick="ClearButton_Click" Text="Clear"  />
                     <asp:Button ID="Button2" runat="server" OnClick="SubmitButton_Click" Text="Submit" />
                 </div>
-                <%--<div class="question">
-                    <p>1.   What kind of damage does Herrscher of Flamescion deals?</p>
-                </div>
-                <div class="options">
-                    <!-- Correct: Fire -->
-                    <asp:RadioButtonList ID="Q1" runat="server">
-                        <asp:ListItem Text="Fire" Value="1" />
-                        <asp:ListItem Text="Ice" Value="2" />
-                        <asp:ListItem Text="Lightning" Value="3" />
-                        <asp:ListItem Text="Physical" Value="4" />
-                    </asp:RadioButtonList>
-                </div>
-                <div class="question">
-                    <p>2.   What is the best recommended weapon for Herrscher of Flamescion?</p>
-                </div>
-                <div class="options">
-                    <!-- Correct: Domain of Incandescence -->
-                    <asp:RadioButtonList ID="Q2" runat="server">
-                        <asp:ListItem Text="Judgment of Shamash" Value="1" />
-                        <asp:ListItem Text="Fenghuang Pinions" Value="2" />
-                        <asp:ListItem Text="Domain of the Void" Value="3" />
-                        <asp:ListItem Text="Domain of Incandescence" Value="4" />
-                    </asp:RadioButtonList>
-                </div>
-                <div class="question">
-                    <p>3.   How much HP does Herrscher Form activation costs?</p>
-                </div>
-                <div class="options">
-                    <!-- Correct: 15% -->
-                    <asp:RadioButtonList ID="Q3" runat="server">
-                        <asp:ListItem Text="10%" Value="1" />
-                        <asp:ListItem Text="15%" Value="2" />
-                        <asp:ListItem Text="20%" Value="3" />
-                        <asp:ListItem Text="25%" Value="4" />
-                    </asp:RadioButtonList>
-                </div>
-                <div class="question">
-                    <p>4.   When your Herrscher of Flamescion's HP is below 60%, how much more Fire DMG does she deals?</p>
-                </div>
-                <div class="options">
-                    <!-- Correct: 35% -->
-                    <asp:RadioButtonList ID="Q4" runat="server">
-                        <asp:ListItem Text="15%" Value="1" />
-                        <asp:ListItem Text="25%" Value="2" />
-                        <asp:ListItem Text="35%" Value="3" />
-                        <asp:ListItem Text="45%" Value="4" />
-                    </asp:RadioButtonList>
-                </div>
-                <div class="question">
-                    <p>5.   What can Herrscher of Flamescion's ultimate do?</p>
-                </div>
-                <div class="options">
-                    <!-- Correct: All of the above -->
-                    <asp:RadioButtonList ID="Q5" runat="server">
-                        <asp:ListItem Text="Pauses buff, debuff and stage timer" Value="1" />
-                        <asp:ListItem Text="Heals Flamescion if her HP is low" Value="2" />
-                        <asp:ListItem Text="Dealing 2150% Fire DMG" Value="3" />
-                        <asp:ListItem Text="All of the above" Value="4" />
-                    </asp:RadioButtonList>
-                </div>
-                <div class="controls">
-                    <asp:Button ID="ClearButton" runat="server" OnClick="ClearButton_Click" Text="Clear"  />
-                    <asp:Button ID="SubmitButton" runat="server" OnClick="SubmitButton_Click" Text="Submit" />
-                </div>
-                <br />--%>
                 <asp:Panel ID="ResultPanel" runat="server" GroupingText="Result">
                     <asp:Label ID="result" runat="server" ></asp:Label>
                 </asp:Panel>
