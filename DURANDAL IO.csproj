@@ -125,6 +125,7 @@
     <Content Include="Images\Stigmata_Thales_M.png" />
     <Content Include="Images\PE Portrait.png" />
     <Content Include="Images\Markov_Type_A_.png" />
+    <Content Include="manageUser.aspx" />
     <Content Include="memberDashboard.aspx" />
     <Content Include="memberRegistration.aspx" />
     <Content Include="Images\Stigmata_Beach Party_M.png" />
@@ -215,6 +216,13 @@
     </Compile>
     <Compile Include="Main.Master.designer.cs">
       <DependentUpon>Main.Master</DependentUpon>
+    </Compile>
+    <Compile Include="manageUser.aspx.cs">
+      <DependentUpon>manageUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="manageUser.aspx.designer.cs">
+      <DependentUpon>manageUser.aspx</DependentUpon>
     </Compile>
     <Compile Include="memberDashboard.aspx.cs">
       <DependentUpon>memberDashboard.aspx</DependentUpon>
