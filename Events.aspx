@@ -66,13 +66,13 @@
         <div class="event-banner" style="margin-top: 6.0em;">
             <h1 class="auto-style9"><u>Events</u></h1>
             <a href="Event_1.aspx">
-                <img class="displayed" src="./Images/Ai-chan_Newsflash.png" alt="BP(S30)" width="652px" height="153px"/>
+                <img class="displayed" src="./Images/Ai-chan_Newsflash.png" alt="Ai-1" width="652px" height="153px"/>
                  </a><br /><br />
                 <a href="Event_2.aspx">
-                <img class="displayed" src="Images/Ai-chan_Newflash_1.png" alt="Ai" width="652px" height="153px" />
+                <img class="displayed" src="Images/Ai-chan_Newflash_1.png" alt="Ai-2" width="652px" height="153px" />
                 </a><br /><br />
                 <a href="Event_3.aspx">
-                <img class="displayed" src="Images/Ai-chan_Newsflash_2.png" alt="C_P" width="652px" height="153px" />
+                <img class="displayed" src="Images/Ai-chan_Newsflash_2.png" alt="Ai-3" width="652px" height="153px" />
                 </a><br /><br />
             <h1 style="text-align: center">Time Until Next Event:</h1>
 
@@ -80,7 +80,7 @@
 
 <script>
     // Set the date we're counting down to
-    var countDownDate = new Date("Jan 5, 2024 15:37:25").getTime();
+    var countDownDate = new Date("Apr 1, 2023 00:00:00").getTime();
 
     // Update the count down every 1 second
     var x = setInterval(function() {

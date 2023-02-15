@@ -51,23 +51,23 @@
                             "The Cocoon is just a mirror of yours after all." <br />
                                "How you embrace humanity is how the Cocoon embraces humanity."
                             </p>
-                            <img class="displayed" src=".\Images\Event5.png" alt="BS" />
+                            <img class="displayed" src=".\Images\Event_5.png" alt="E5" />
                             <br /> <br /><br />
                             <p style="color:darkorange;">※※※※※ Part 1 Finale Special Rewards Preview ※※※※※<br /></p>
                             "★★★ Part 1 Finale Login Event ★★★ <br />
                            <p> Part 1 Finale login event will begin in early MAR. You can log in to get 300 Crystals and 2,400 Asterite.<br />
                             During the event of Story Chapter XXXV, you can also log in to check out Part 1 Finale Special Letter below the bridge and get Focused Supply <br /> Card x5.
                            </p>
-                            <img class="displayed" src=".\Images\Event4.png" alt="BS" />
+                            <img class="displayed" src=".\Images\Event_4.png" alt="E4" />
                             <p><br />
                                 ★★★ Story Chapter XXXV Event Rewards ★★★ <br />
                                 Play Story Chapter XXXV to get bridge theme Train to the Future, Stygian Nymph's outfit Estonia in Spring and more.
                             </p>
-                            <img class="displayed" src=".\Images\Event3.png" alt="BS" />
+                            <img class="displayed" src=".\Images\Event_3.png" alt="E3" />
                             <p>
                             After Story Chapter XXXV is released and before Version Kiana ends, you can also experience the limited-time bridge theme Above the Moon.
                             </p>
-                            <img class="displayed" src=".\Images\Event1.png" alt="BS" />
+                            <img class="displayed" src=".\Images\Event_2.png" alt="E2" />
                              <p>
                              There will also be special items for you to unlock! Please follow announcements for further details.
                             </p> <br />
@@ -76,7 +76,7 @@
                             </p><p>
                             Kevin now has full control of the power of Finality thanks to Project Stigma. In this battle, he'll show us all the original authority of Finality and go<br /> all out to fight against the protagonists! The giant This Worldly Beast he summons has 3 arms, and he'll mount it to give orders.
                             </p>
-                            <img class="displayed" src=".\Images\Event.png" alt="BS" />
+                            <img class="displayed" src=".\Images\Event_1.png" alt="E1" />
                             <p>
                             That's all for this episode of Ai-chan's Newsflash! See you in Version Kiana! <br /><br />
                             ※ The above info is taken from the test server and is subject to change in the live version.
