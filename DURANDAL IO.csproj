@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="HoH.aspx" />
     <Content Include="Images\Abyss_Flower_-_Liminal_Spiral.png" />
     <Content Include="Images\Abyss_Lance.png" />
     <Content Include="adminDashboard.aspx" />
@@ -104,6 +105,13 @@
     <Content Include="Images\Judgement_of_Shamash.png" />
     <Content Include="Images\Key_of_Ascension.png" />
     <Content Include="Images\Light_String.png" />
+    <Content Include="Images\PE_Basic Skill.png" />
+    <Content Include="Images\PE_Chart.png" />
+    <Content Include="Images\PE_Evasion Skill.png" />
+    <Content Include="Images\PE_Leader Skill.png" />
+    <Content Include="Images\PE_Passive Skill.png" />
+    <Content Include="Images\PE_Special Skill.png" />
+    <Content Include="Images\PE_Ultimate Skill.png" />
     <Content Include="login.aspx" />
     <Content Include="Main.css" />
     <Content Include="Images\Stigmata_Kitten Fun_B.png" />
@@ -115,7 +123,7 @@
     <Content Include="Images\Stigmata_Murata Himeko_T.png" />
     <Content Include="Images\Stigmata_Yodo Dono_M.png" />
     <Content Include="Images\Stigmata_Thales_M.png" />
-    <Content Include="Images\Palatinus Equinox Portrait.png" />
+    <Content Include="Images\PE Portrait.png" />
     <Content Include="Images\Markov_Type_A_.png" />
     <Content Include="memberDashboard.aspx" />
     <Content Include="memberRegistration.aspx" />
@@ -147,6 +155,7 @@
     <Content Include="Images\Stigmata_Willows_M.png" />
     <Content Include="Images\Stigmata_Willows_T.png" />
     <Content Include="Images\Midnight_Ataegina.png" />
+    <Content Include="PE.aspx" />
     <Content Include="Web.config" />
     <Content Include="builds.aspx" />
   </ItemGroup>
@@ -178,6 +187,13 @@
     </Compile>
     <Compile Include="HoF.aspx.designer.cs">
       <DependentUpon>HoF.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HoH.aspx.cs">
+      <DependentUpon>HoH.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HoH.aspx.designer.cs">
+      <DependentUpon>HoH.aspx</DependentUpon>
     </Compile>
     <Compile Include="HoT.aspx.cs">
       <DependentUpon>HoT.aspx</DependentUpon>
@@ -213,6 +229,13 @@
     </Compile>
     <Compile Include="memberRegistration.aspx.designer.cs">
       <DependentUpon>memberRegistration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PE.aspx.cs">
+      <DependentUpon>PE.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PE.aspx.designer.cs">
+      <DependentUpon>PE.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="builds.aspx.cs">
