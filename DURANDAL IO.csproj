@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="editAdminProfile.aspx" />
     <Content Include="HoH.aspx" />
     <Content Include="Images\Abyss_Flower_-_Liminal_Spiral.png" />
     <Content Include="Images\Abyss_Lance.png" />
@@ -174,6 +175,13 @@
     </Compile>
     <Compile Include="adminRegistration.aspx.designer.cs">
       <DependentUpon>adminRegistration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="editAdminProfile.aspx.cs">
+      <DependentUpon>editAdminProfile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="editAdminProfile.aspx.designer.cs">
+      <DependentUpon>editAdminProfile.aspx</DependentUpon>
     </Compile>
     <Compile Include="editUserProfile.aspx.cs">
       <DependentUpon>editUserProfile.aspx</DependentUpon>
