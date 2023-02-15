@@ -30,9 +30,9 @@
 
         }
 
-        .fit-screen ::-webkit-scrollbar {
+       /* .fit-screen ::-webkit-scrollbar {
             display: none;
-        }
+        }*/
 
         .content-box {
             display:flex;

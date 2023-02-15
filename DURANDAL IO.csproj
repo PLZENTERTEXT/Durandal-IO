@@ -44,6 +44,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DataVisualization" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -94,8 +95,11 @@
     <Content Include="Images\Stigmata_Yodo Dono_M.png" />
     <Content Include="Images\Stigmata_Thales_M.png" />
     <Content Include="Images\Palatinus Equinox Portrait.png" />
-    <Content Include="Web.config" />
     <Content Include="builds.aspx" />
+    <Content Include="Events.aspx" />
+    <Content Include="Event_3.aspx" />
+    <Content Include="Event_1.aspx" />
+    <Content Include="Event_2.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="HoF.aspx.cs">
@@ -127,15 +131,44 @@
     <Compile Include="builds.aspx.designer.cs">
       <DependentUpon>builds.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Events.aspx.cs">
+      <DependentUpon>Events.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Events.aspx.designer.cs">
+      <DependentUpon>Events.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Event_3.aspx.cs">
+      <DependentUpon>Event_3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Event_3.aspx.designer.cs">
+      <DependentUpon>Event_3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Event_1.aspx.cs">
+      <DependentUpon>Event_1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Event_1.aspx.designer.cs">
+      <DependentUpon>Event_1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Event_2.aspx.cs">
+      <DependentUpon>Event_2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Event_2.aspx.designer.cs">
+      <DependentUpon>Event_2.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Main.Master" />
     <None Include="packages.config" />
-    <None Include="Web.Debug.config">
-      <DependentUpon>Web.config</DependentUpon>
+    <Content Include="web.config" />
+    <None Include="web.Debug.config">
+      <DependentUpon>web.config</DependentUpon>
     </None>
-    <None Include="Web.Release.config">
-      <DependentUpon>Web.config</DependentUpon>
+    <None Include="web.Release.config">
+      <DependentUpon>web.config</DependentUpon>
     </None>
   </ItemGroup>
   <PropertyGroup>
