@@ -1,80 +1,38 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Main.Master" AutoEventWireup="true" CodeBehind="Event_3.aspx.cs" Inherits="DURANDAL_IO.WebForm2" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <style>
-      
 
-        .background-h2 {
-            /*background-color: #47CBEE;
-            color: #1F2326;*/
-            /*width: inherit;*/
+        img.displayed
+        {
+            display:block;
+            margin-left:auto;
+            margin-right:auto
         }
-         img.displayed
+        
+        .event-banner
          {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-         }
-
-        .fit-screen {
-            width: 100vw;
-            overflow-y: hidden;
-            display: flex;
-            justify-content: stretch;
-            max-width:100vw;
-            height: 100vh;
-            overflow: scroll;
-            display: flex;
-            align-content: stretch;
-            flex-direction: column;
-        }
-
-        .herrscher-info {
-            background-color: #1F2326EE;
-            border-radius: 8px;
-            margin: 3em;
-            color: white;
-            padding: 2em;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-direction: column;
-        }
-
-        .skill-section {
-            align-items: center;
-            justify-content: center;
-            margin: auto;
-            padding-top: 3em;
-            text-align: center;
+            background-color:#1f2326EE;
+            border-radius:8px;
+            margin:3em;
+            color:#fff;
+            padding:2em;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            flex-direction:column
         }
         
-        .description {
-            padding-left: 1em;
-            padding-top: 3em;
+        html
+        {
+            overflow-y:scroll;
+            overflow-x:hidden;
+            background:#4c63a6
         }
 
-        .question {
-            margin-top: 50px;
-        }
-
-        .options {
-            margin-top: 20px;
-        }
-
-        .controls {
-            margin-top: 30px;
-            margin-bottom: 30px;
-        }
-        html { 
-            overflow-y: scroll;  
-            overflow-x: hidden;
-            background: #4c63a6;
-        }
-        
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-            <div class="herrscher-info">
+            <div class="event-banner">
             <h1>Ai-chan Newsflash: New Herrscher battlesuit Herrscher of Finality Debuts</h1>
             <table style="margin: 0" cellspacing="0" cellpadding="1px">
                 <img src=".\Images\Ai-chan_Newsflash_2.png" alt="BS" height="160px" width="771px"/>

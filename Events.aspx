@@ -1,108 +1,69 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Main.Master" AutoEventWireup="true" CodeBehind="Events.aspx.cs" Inherits="DURANDAL_IO.WebForm5" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
    <style>
-     
+     img.displayed
+     {
+         display:block;
+         margin-left:auto;
+         margin-right:auto
+     }
 
-        img.displayed
-         {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-         }
-
-        .background-h2 {
-            /*background-color: #47CBEE;
-            color: #1F2326;*/
-            /*width: inherit;*/
-        }
-
-        .fit-screen {
-            width: 100vw;
-            overflow-y: hidden;
-            display: flex;
-            justify-content: stretch;
-            max-width:stretch;
-           overflow : scroll;
-            display: flex;
-            align-content: inherit;
-            flex-direction: column;
-        }
-
-        .herrscher-info {
-            background-color: #1F2326EE;
-            border-radius: 8px;
-            margin: 3em;
-            color: white;
-            padding: 2em;
-            display: compact;
-            align-items: center;
-            justify-content: center;
-            flex-direction: column;
-        }
-
-        .skill-section {
-            align-items: center;
-            justify-content: center;
-            margin: auto;
-            padding-top: 3em;
-            text-align: center;
-        }
-        
-        .description {
-            padding-left: 1em;
-            padding-top: 3em;
-        }
-
-        .question {
-            margin-top: 50px;
-        }
-
-        .options {
-            margin-top: 20px;
-        }
-
-        .controls {
-            margin-top: 30px;
-            margin-bottom: 30px;
-        }
-       .auto-style3 {
-           width: 1447px;
-           overflow-y: hidden;
-           display: flex;
-           justify-content: stretch;
-           max-width: stretch;
-           overflow : scroll;
-           display: flex;
-           align-content: inherit;
-           flex-direction: column;
-           height: 1370px;
+       .event-banner {
+           background-color: #1f2326EE;
+           border-radius: 8px;
+           margin: 3em;
+           color: #fff;
+           padding: 2em;
+           display: compact;
+           align-items: center;
+           justify-content: center;
+           flex-direction: column
        }
-       
-         html { 
-            overflow-y: scroll;  
-            overflow-x: hidden;
-            background: #4c63a6;
-        }
-        
-       .auto-style9 {
-           margin-left: 311px;
-       }
-        
-       .auto-style10 {
-           margin-left: 0px;
-           width: 1264px;
-       }
-       p {
-            text-align: center;
-            font-size: 60px;
-            margin-top: 0px;
-        }
-        
+
+       .auto-style3
+       {
+          width:1447px;
+          overflow-y:hidden;
+          display:flex;
+          justify-content:stretch;
+          max-width:stretch;
+          overflow:scroll;
+          display:flex;
+          align-content:inherit;
+          flex-direction:column;
+          height:1370px
+      }
+
+      html
+      {
+          overflow-y:scroll;
+          overflow-x:hidden;
+          background:#4c63a6
+      }
+
+      .auto-style9
+      {
+          margin-left:311px
+      }
+      
+      .auto-style10
+      {
+          margin-left:0;
+          width:1264px
+      }
+      
+      p
+      {
+          text-align:center;
+          font-size:60px;
+          margin-top:0
+      }
+
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
        <div class="auto-style3">
-        <div class="herrscher-info" style="margin-top: 6.0em;">
+        <div class="event-banner" style="margin-top: 6.0em;">
             <h1 class="auto-style9"><u>Events</u></h1>
             <a href="Event_1.aspx">
                 <img class="displayed" src="./Images/Ai-chan_Newsflash.png" alt="BP(S30)" width="652px" height="153px"/>

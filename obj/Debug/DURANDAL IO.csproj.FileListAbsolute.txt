@@ -111,8 +111,8 @@ C:\Users\ED\source\repos\Durandal-IO\bin\roslyn\VBCSCompiler.exe
 C:\Users\ED\source\repos\Durandal-IO\bin\roslyn\VBCSCompiler.exe.config
 C:\Users\ED\source\repos\Durandal-IO\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\Users\ED\source\repos\Durandal-IO\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ED\source\repos\Durandal-IO\obj\Debug\DURANDAL IO.csproj.AssemblyReference.cache
 C:\Users\ED\source\repos\Durandal-IO\obj\Debug\DURANDAL IO.csproj.CoreCompileInputs.cache
 C:\Users\ED\source\repos\Durandal-IO\obj\Debug\DURANDAL IO.csproj.CopyComplete
 C:\Users\ED\source\repos\Durandal-IO\obj\Debug\DURANDAL IO.dll
 C:\Users\ED\source\repos\Durandal-IO\obj\Debug\DURANDAL IO.pdb
-C:\Users\ED\source\repos\Durandal-IO\obj\Debug\DURANDAL IO.csproj.AssemblyReference.cache
