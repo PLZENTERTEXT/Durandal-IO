@@ -41,7 +41,7 @@
             <asp:Label ID="uname" runat="server" Text="[uname]"></asp:Label>
             <br />
             <br />
-            <table>
+            <table style="margin-top:2em;margin-bottom:2em;">
                 <tr>
                     <td><a href="editUserProfile.aspx" class="buttons" style="margin-right:2em;">Edit Profile</a></td>
                     <td><asp:LinkButton ID="SignOutButton" class="buttons" runat="server" OnCommand="SignOut_Command">Sign Out</asp:LinkButton></td>

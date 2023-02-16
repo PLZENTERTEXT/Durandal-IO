@@ -67,7 +67,20 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include=".gitattributes" />
+    <Content Include=".gitignore" />
+    <Content Include="About Us.aspx" />
+    <Content Include="App_Data\comment.mdf" />
+    <Content Include="App_Data\comment_log.ldf">
+      <DependentUpon>comment.mdf</DependentUpon>
+    </Content>
     <Content Include="editAdminProfile.aspx" />
+    <Content Include="elysianRealmMain.aspx" />
+    <Content Include="Events.aspx" />
+    <Content Include="Event_1.aspx" />
+    <Content Include="Event_2.aspx" />
+    <Content Include="Event_3.aspx" />
+    <Content Include="forum.aspx" />
     <Content Include="HoH.aspx" />
     <Content Include="Images\Abyss_Flower_-_Liminal_Spiral.png" />
     <Content Include="Images\Abyss_Lance.png" />
@@ -77,11 +90,25 @@
     <Content Include="App_Data\users_log.ldf">
       <DependentUpon>users.mdf</DependentUpon>
     </Content>
+    <Content Include="Images\Ai-chan_Newflash_1.png" />
+    <Content Include="Images\Ai-chan_Newsflash.png" />
+    <Content Include="Images\Ai-chan_Newsflash_2.png" />
     <Content Include="Images\Call_of_Crescent.png" />
     <Content Include="Images\Domain_of_Ascension_-_Truth_Continuity.png" />
     <Content Include="Images\Domain_of_Ego_-_Flawless_Return.png" />
     <Content Include="editUserProfile.aspx" />
     <Content Include="HoT.aspx" />
+    <Content Include="Images\Event_1.png" />
+    <Content Include="Images\Event_10.png" />
+    <Content Include="Images\Event_11.png" />
+    <Content Include="Images\Event_12.png" />
+    <Content Include="Images\Event_2.png" />
+    <Content Include="Images\Event_3.png" />
+    <Content Include="Images\Event_4.png" />
+    <Content Include="Images\Event_5.png" />
+    <Content Include="Images\Event_7.png" />
+    <Content Include="Images\Event_8.png" />
+    <Content Include="Images\Event_9.png" />
     <Content Include="Images\Falcon_Flare_-_FINAL.png" />
     <Content Include="Images\HoT_Basic Skill.png" />
     <Content Include="Images\HoT_Evasion Skill.png" />
@@ -106,6 +133,7 @@
     <Content Include="Images\Judgement_of_Shamash.png" />
     <Content Include="Images\Key_of_Ascension.png" />
     <Content Include="Images\Light_String.png" />
+    <Content Include="Images\Palatinus Equinox Portrait.png" />
     <Content Include="Images\PE_Basic Skill.png" />
     <Content Include="Images\PE_Chart.png" />
     <Content Include="Images\PE_Evasion Skill.png" />
@@ -113,7 +141,16 @@
     <Content Include="Images\PE_Passive Skill.png" />
     <Content Include="Images\PE_Special Skill.png" />
     <Content Include="Images\PE_Ultimate Skill.png" />
+    <Content Include="Images\skill_1.gif" />
+    <Content Include="Images\skill_2.gif" />
+    <Content Include="Images\skill_3.gif" />
+    <Content Include="Images\skill_4.gif" />
+    <Content Include="Images\skill_5.gif" />
+    <Content Include="Images\skill_6.gif" />
+    <Content Include="Images\skill_7.gif" />
+    <Content Include="Images\skill_8.gif" />
     <Content Include="login.aspx" />
+    <Content Include="Main Story.aspx" />
     <Content Include="Main.css" />
     <Content Include="Images\Stigmata_Kitten Fun_B.png" />
     <Content Include="Images\Stigmata_Kitten Fun_T.png" />
@@ -162,6 +199,13 @@
     <Content Include="builds.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="About Us.aspx.cs">
+      <DependentUpon>About Us.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About Us.aspx.designer.cs">
+      <DependentUpon>About Us.aspx</DependentUpon>
+    </Compile>
     <Compile Include="adminDashboard.aspx.cs">
       <DependentUpon>adminDashboard.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -190,6 +234,48 @@
     <Compile Include="editUserProfile.aspx.designer.cs">
       <DependentUpon>editUserProfile.aspx</DependentUpon>
     </Compile>
+    <Compile Include="elysianRealmMain.aspx.cs">
+      <DependentUpon>elysianRealmMain.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="elysianRealmMain.aspx.designer.cs">
+      <DependentUpon>elysianRealmMain.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Events.aspx.cs">
+      <DependentUpon>Events.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Events.aspx.designer.cs">
+      <DependentUpon>Events.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Event_1.aspx.cs">
+      <DependentUpon>Event_1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Event_1.aspx.designer.cs">
+      <DependentUpon>Event_1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Event_2.aspx.cs">
+      <DependentUpon>Event_2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Event_2.aspx.designer.cs">
+      <DependentUpon>Event_2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Event_3.aspx.cs">
+      <DependentUpon>Event_3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Event_3.aspx.designer.cs">
+      <DependentUpon>Event_3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="forum.aspx.cs">
+      <DependentUpon>forum.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="forum.aspx.designer.cs">
+      <DependentUpon>forum.aspx</DependentUpon>
+    </Compile>
     <Compile Include="HoF.aspx.cs">
       <DependentUpon>HoF.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -217,6 +303,13 @@
     </Compile>
     <Compile Include="login.aspx.designer.cs">
       <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Main Story.aspx.cs">
+      <DependentUpon>Main Story.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Main Story.aspx.designer.cs">
+      <DependentUpon>Main Story.aspx</DependentUpon>
     </Compile>
     <Compile Include="Main.Master.cs">
       <DependentUpon>Main.Master</DependentUpon>

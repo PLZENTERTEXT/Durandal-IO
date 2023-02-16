@@ -41,7 +41,7 @@
             <asp:Label ID="uname" runat="server" Text="[uname]"></asp:Label>
             <br />
             <br />
-            <table>
+            <table style="margin-top:2em;margin-bottom:2em;">
                 <tr>
                     <td><a href="manageUser.aspx" class="buttons" style="margin-right:2em;">Manage User</a></td>
                     <td><a href="editAdminProfile.aspx" class="buttons" style="margin-right:2em;">Edit Profile</a></td>

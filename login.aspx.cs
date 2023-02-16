@@ -13,7 +13,17 @@ namespace DURANDAL_IO
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if (Session["firstname"] != null)
+            {
+                if ((string)Session["role"] == "admin")
+                {
+                    Response.Redirect("adminDashboard.aspx");
+                }
+                else
+                {
+                    Response.Redirect("memberDashboard.aspx");
+                }
+            }
         }
 
         protected void SignInButton_Click(object sender, EventArgs e)
@@ -46,6 +56,7 @@ namespace DURANDAL_IO
 
                 Session["firstName"] = name;
                 Session["userName"] = username.Text;
+                Session["role"] = type;
 
                 // Session redirect
                 if (type == "admin")
