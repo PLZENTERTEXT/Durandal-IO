@@ -4,10 +4,9 @@
     color: #1F2326;
     margin: 0;
     font-family: "Montserrat";
-    overflow:hidden;
-   
-
+    overflow: hidden;
 }
+
 a:any-link {
     color: white;
     text-decoration: none;

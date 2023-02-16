@@ -78,7 +78,7 @@
         </div>
 
 
-        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionStrings %>" SelectCommand="SELECT [postId], [userName], [postContent], [date] FROM [comment] ORDER BY [date] DESC, [postId] DESC"></asp:SqlDataSource>
+        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" SelectCommand="SELECT * FROM [comment] ORDER BY [date] DESC, [postId] DESC"></asp:SqlDataSource>
         <div class="content">
             <asp:ListView ID="ListView1" runat="server" DataKeyNames="postId" DataSourceID="SqlDataSource1">
                 <AlternatingItemTemplate>

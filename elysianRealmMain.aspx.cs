@@ -22,7 +22,7 @@ namespace DURANDAL_IO
             deliveranceCoreOne.Visible = false;
             deliveranceCoreTwo.Visible = false;
             deliveranceCommon.Visible = true;
-            
+
         }
 
         protected void hideD1_Click(object sender, EventArgs e)

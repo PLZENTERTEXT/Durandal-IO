@@ -122,9 +122,6 @@
     }, 1000);
             </script>
 
-            <div class="flameChasers">
-            <asp:Button ID="showPostComment" runat="server" Text="Click Me to Post Comments" BackColor="white" ForeColor="#6666FF" Font-Bold="True" Height="36px" Width="307px" OnClick="showPostComment_Click" />
-        </div>
             </div>
            </div>
     

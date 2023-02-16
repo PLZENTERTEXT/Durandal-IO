@@ -36,7 +36,7 @@ namespace DURANDAL_IO
                 string name = (string)Session["userName"];
                 string date = DateTime.Now.ToString("yyyy-MM-dd hh:mm:ss");
 
-                SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["ConnectionStrings"].ConnectionString);
+                SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["ConnectionString"].ConnectionString);
                 con.Open();
                 string query = "insert into comment(userName, postContent, date) values (@username, @postContent, @date)";
                 SqlCommand cmd1 = new SqlCommand(query, con);
