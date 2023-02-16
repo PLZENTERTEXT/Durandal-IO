@@ -87,7 +87,7 @@
                     <tr>
                         <td style="align-items: center; justify-content: center; margin: auto; text-align: center;">
                             <strong>Leader: Stellar Crusader</strong><br />
-                            <img src="./Images/PE_Leader_Skill.png" alt="PE Leader Skill" width="100px" height="100px" />
+                            <img src="./Images/PE_Leader Skill.png" alt="PE Leader Skill" width="100px" height="100px" />
                         </td>
                         <td style="padding-left: 1em;">
                             Leader Bonus: Team deals <b>21.0%</b> bonus Physical DMG. 
