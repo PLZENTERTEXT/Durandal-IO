@@ -70,10 +70,6 @@
     <Content Include=".gitattributes" />
     <Content Include=".gitignore" />
     <Content Include="About Us.aspx" />
-    <Content Include="App_Data\comment.mdf" />
-    <Content Include="App_Data\comment_log.ldf">
-      <DependentUpon>comment.mdf</DependentUpon>
-    </Content>
     <Content Include="editAdminProfile.aspx" />
     <Content Include="elysianRealmMain.aspx" />
     <Content Include="Events.aspx" />

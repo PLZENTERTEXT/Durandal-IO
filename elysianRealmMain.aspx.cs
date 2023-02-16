@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Security.Cryptography;
 using System.Web;
@@ -20,7 +22,7 @@ namespace DURANDAL_IO
             deliveranceCoreOne.Visible = false;
             deliveranceCoreTwo.Visible = false;
             deliveranceCommon.Visible = true;
-            
+
         }
 
         protected void hideD1_Click(object sender, EventArgs e)
@@ -212,6 +214,11 @@ namespace DURANDAL_IO
         protected void hideV3_Click(object sender, EventArgs e)
         {
             vicissitudeCoreTwo.Visible = false;
+        }
+
+        protected void showPostComment_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("forum.aspx");
         }
     }
 }
