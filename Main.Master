@@ -44,14 +44,14 @@
                 <a class="builds" href="builds.aspx">BUILDS</a>
                 <div class="dropdown-content">
                     <a href="HoF.aspx">Herrscher of Flamescion</a>
-                    <a href="#">Herrscher of Human: Ego</a>
-                    <a href="#">Herrscher of Truth</a>
-                    <a href="#">Palatinus Equinox</a>
+                    <a href="HoH.aspx">Herrscher of Human: Ego</a>
+                    <a href="HoT.aspx">Herrscher of Truth</a>
+                    <a href="PE.aspx">Palatinus Equinox</a>
                 </div>
             </div>
             <div class="user-profile-icon">
                 <span class="material-symbols-rounded">
-                    person
+                    <a href="login.aspx">person</a>
                 </span>
             </div>
         </div>

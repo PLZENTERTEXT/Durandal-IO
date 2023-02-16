@@ -14,13 +14,11 @@
             text-align: center;
         }
 
-        .fit-screen {
+        .fit-screen-builds {
             width: 100vw;
             overflow-y: hidden;
             display: flex;
             justify-content: center;
-            /*min-width: 262px;
-            max-width:100vw;*/
             height: 100vh;
             min-height: 455px;
             overflow: hidden;
@@ -30,7 +28,7 @@
 
         }
 
-        .fit-screen ::-webkit-scrollbar {
+        .fit-screen-builds ::-webkit-scrollbar {
             display: none;
         }
 
@@ -44,7 +42,7 @@
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <div class="fit-screen">
+    <div class="fit-screen-builds">
         <div class="content-area">
             <a href="HoF.aspx">
                 <div class="content-box">
@@ -59,7 +57,7 @@
             </a>
         </div>
         <div class="content-area">
-            <a href="/builds/HoH">
+            <a href="HoH.aspx">
                 <div class="content-box">
                     <div>
                         <img alt="HoH Portrait" src="./Images/HoH Portrait.png">
@@ -71,7 +69,7 @@
             </a>
         </div>
         <div class="content-area">
-            <a href="/builds/HoF">
+            <a href="HoT.aspx">
                 <div class="content-box">
                     <div>
                         <img alt="HoT Portrait" src="./Images/HoT Portrait.png">
@@ -83,7 +81,7 @@
             </a>
         </div>
         <div class="content-area">
-            <a href="/builds/HoH">
+            <a href="PE.aspx">
                 <div class="content-box">
                     <div>
                         <img alt="Palatinus Equinox Portrait" src="./Images/Palatinus Equinox Portrait.png">

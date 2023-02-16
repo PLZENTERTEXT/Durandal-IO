@@ -123,12 +123,6 @@ a:any-link {
     overflow: hidden;
 }
 
-.wave-background {
-    position: absolute; /*Stick to bottom*/
-    bottom: 0;
-    left: 0;
-}
-
 /* Fade in animation */
 @keyframes fadein {
     0% {

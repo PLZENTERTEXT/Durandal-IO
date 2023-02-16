@@ -15,9 +15,6 @@ namespace DURANDAL_IO
             {
                 ResultPanel.Visible = false;
             }
-
-            // Doesn't work?
-            ResultPanel.Visible = false;
         }
 
         protected void SubmitButton_Click(object sender, EventArgs e)
@@ -41,6 +38,27 @@ namespace DURANDAL_IO
 
         protected void ClearButton_Click(object sender, EventArgs e)
         {
+            Option1.Checked = false;
+            Option2.Checked = false;
+            Option3.Checked = false;
+            Option4.Checked = false;
+            Option5.Checked = false;
+            Option6.Checked = false;
+            Option7.Checked = false;
+            Option8.Checked = false;
+            Option9.Checked = false;
+            Option10.Checked = false;
+            Option11.Checked = false;
+            Option12.Checked = false;
+            Option13.Checked = false;
+            Option14.Checked = false;
+            Option15.Checked = false;
+            Option16.Checked = false;
+            Option17.Checked = false;
+            Option18.Checked = false;
+            Option19.Checked = false;
+            Option20.Checked = false;
+
             // Clear using:
             // To Unselect First Item
             // RadioButtonList1.Items[0].Selected = false;
