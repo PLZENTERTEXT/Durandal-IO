@@ -18,27 +18,17 @@
             <div>
                 <img class="icon" src="./Images/DURANDAL_IO_Logo.png" alt="Durandal IO Logo">
             </div>
-            <div>
-                MAIN
-            </div>
-            <div>
-                ABOUT US
+            <div class="dropdown">
+                <a href="Main Story.aspx">MAIN</a>
             </div>
             <div class="dropdown">
-                <a href="page1.aspx">ELYSIAN REALM</a>
-                <div class="dropdown-content">
-                    <a href="page1.aspx">Page 1</a>
-                    <a href="#">Page 2</a>
-                    <a href="#">Page 3</a>
-                </div>
+                <a href="About Us.aspx">ABOUT US</a>
             </div>
             <div class="dropdown">
-                <a href="page1.aspx">EVENTS</a>
-                <div class="dropdown-content">
-                    <a href="page1.aspx">Page 1</a>
-                    <a href="#">Page 2</a>
-                    <a href="#">Page 3</a>
-                </div>
+                <a href="elysianRealmMain.aspx">ELYSIAN REALM</a>
+            </div>
+            <div class="dropdown">
+                <a href="Events.aspx">EVENTS</a>
             </div>
             <div class="dropdown">
                 <a class="builds" href="builds.aspx">BUILDS</a>
@@ -48,6 +38,9 @@
                     <a href="HoT.aspx">Herrscher of Truth</a>
                     <a href="PE.aspx">Palatinus Equinox</a>
                 </div>
+            </div>
+            <div class="dropdown">
+                <a href="forum.aspx">FORUM</a>
             </div>
             <div class="user-profile-icon">
                 <span class="material-symbols-rounded">
