@@ -23,7 +23,7 @@
         /* Story section */
         .story-section {
           border-radius:20px;
-          background: silver;
+          background: linear-gradient(rgba(0, 0, 30, 0.8), rgba(0, 0, 0, 0.8));
           margin-bottom: 30px;
           border: 1px solid white;
           padding: 10px;
