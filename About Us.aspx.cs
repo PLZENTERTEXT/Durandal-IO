@@ -26,7 +26,7 @@ namespace DURANDAL_IO
         private string GetLatestFeedback()
         {
             string feedback = string.Empty;
-            using (SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["Feedback"].ConnectionString))
+            using (SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["FeedbackTable"].ConnectionString))
             {
                 con.Open();
                 SqlCommand command = new SqlCommand("SELECT TOP 1 Feedback FROM Feedback ORDER BY Date DESC", con);
@@ -68,7 +68,7 @@ namespace DURANDAL_IO
 
         protected void InsertFeedback1(object sender, EventArgs e)
         {
-            using (SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["Feedback"].ConnectionString))
+            using (SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["FeedbackTable"].ConnectionString))
             {
                 if (!AuthenticateUser(1, 3))
                 {
@@ -94,7 +94,7 @@ namespace DURANDAL_IO
         private bool AuthenticateUser(int section, int page)
         {
             bool isAuthenticated = false;
-            using (SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["Feedback"].ConnectionString))
+            using (SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["FeedbackTable"].ConnectionString))
             {
                 con.Open();
                 if (section == 1)
@@ -144,7 +144,7 @@ namespace DURANDAL_IO
         private string GetFeedbackForUser()
         {
             string feedback = string.Empty;
-            using (SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["Feedback"].ConnectionString))
+            using (SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["FeedbackTable"].ConnectionString))
             {
                 con.Open();
                 SqlCommand command = new SqlCommand("SELECT Feedback FROM Feedback WHERE Email=@Email ORDER BY Date DESC", con);
@@ -194,7 +194,7 @@ namespace DURANDAL_IO
                 if (AuthenticateUser(2, 2))
                 {
                     valid = true;
-                    using (SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["Feedback"].ConnectionString))
+                    using (SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["FeedbackTable"].ConnectionString))
                     {
                         con.Open();
                         SqlCommand command = new SqlCommand("DELETE FROM Feedback WHERE Email = @Email", con);
@@ -216,7 +216,7 @@ namespace DURANDAL_IO
             }
             else
             {
-                Response.Redirect("About Us.aspx.");
+                Response.Redirect("About Us.aspx");
             }
         }
         protected void Update_Click(object sender, EventArgs e)
@@ -227,7 +227,7 @@ namespace DURANDAL_IO
                 if (AuthenticateUser(2, 2))
                 {
                     valid = true;
-                    using (SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["Feedback"].ConnectionString))
+                    using (SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["FeedbackTable"].ConnectionString))
                     {
                         con.Open();
                         SqlCommand command = new SqlCommand("UPDATE Feedback SET Feedback = @Feedback, Date=@Date WHERE Email = @Email", con);

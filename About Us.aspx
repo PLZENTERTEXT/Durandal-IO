@@ -157,145 +157,128 @@ input[type="text"] {
       </div>
     </div>
 
-    <div class="container2">
-      <asp:Panel class="c2child" ID="FeedbackTextBox1" runat="server">
-        <h2 style="text-align:center">Feedback Received</h2>
-        <asp:TextBox
-          runat="server"
-          ReadOnly="true"
-          class="TextBox largetextbox"
-          ID="TextBox1"
-        ></asp:TextBox>
-        <div class="ButtonContainer">
-          <asp:button
-            runat="server"
-            class="feedbackbutton"
-            onclick="Search_feedback_button_Click"
-            Text="Search Feedback"
-          ></asp:button>
-          <asp:button
-            runat="server"
-            id="register_button"
-            class="feedbackbutton"
-            Text="Register"
-            OnClick="register_button_Click"
-          ></asp:button>
-        </div>
-      </asp:Panel>
+      <div class="container2">
+          <asp:Panel class="c2child" ID="FeedbackTextBox1" runat="server">
+              <h2 style="text-align: center">Feedback Received</h2>
+              <asp:TextBox
+                  runat="server"
+                  ReadOnly="true"
+                  class="TextBox largetextbox"
+                  ID="TextBox1"></asp:TextBox>
+              <div class="ButtonContainer">
+                  <asp:Button
+                      runat="server"
+                      class="feedbackbutton"
+                      OnClick="Search_feedback_button_Click"
+                      Text="Search Feedback"></asp:Button>
+                  <asp:Button
+                      runat="server"
+                      ID="register_button"
+                      class="feedbackbutton"
+                      Text="Register"
+                      OnClick="register_button_Click"></asp:Button>
+              </div>
+          </asp:Panel>
 
-      <asp:Panel
-        runat="server"
-        id="FeedBackTextBox2"
-        style="display:none;"
-        class="c2child"
-      >
-        <h2 style="text-align:center">Search</h2>
-        <p style="align-self:center">Username</p>
-        <asp:TextBox
-          ID="EmailTextBox1"
-          runat="server"
-          placeholder="User ID"
-          class="TextBox smallTextBox"
-        ></asp:TextBox>
-        <p style="align-self:center">Password</p>
-        <asp:TextBox
-          ID="PasswordTextBox1"
-          runat="server"
-          TextMode="Password"
-          placeholder="Password"
-          class="TextBox smallTextBox"
-        ></asp:TextBox>
-        <p style="align-self:center">Updated Feedback (Not Required)</p>
-        <asp:TextBox
-          ID="NewFeedback"
-          runat="server"
-          TextMode="Password"
-          placeholder="Password"
-          class="TextBox smallTextBox"
-        ></asp:TextBox>
-        <div class="ButtonContainer">
-          <asp:button
-            id="search_button"
-            class="feedbackbutton"
-            style="height:5vh;"
-            runat="server"
-            Text="Search"
-            OnClick="search_button_Click"
-          ></asp:button>
-          <asp:button
-            runat="server"
-            id="cancel_button"
-            class="feedbackbutton"
-            style="height:5vh;"
-            Text="Cancel"
-            OnClick="cancel_button_Click1"
-          ></asp:button>
-          <asp:button
-            id="Update"
-            class="feedbackbutton"
-            style="height:5vh;"
-            runat="server"
-            Text="Update"
-            OnClick="Update_Click"
-          ></asp:button>
-          <asp:button
-            id="Delete"
-            class="feedbackbutton"
-            style="height:5vh;"
-            runat="server"
-            Text="Delete"
-            OnClick="Delete_Click"
-          ></asp:button>
-        </div>
-      </asp:Panel>
+          <asp:Panel
+              runat="server"
+              ID="FeedBackTextBox2"
+              Style="display: none;"
+              class="c2child">
+              <h2 style="text-align: center">Search</h2>
+              <p style="align-self: center">Email</p>
+              <asp:TextBox
+                  ID="EmailTextBox1"
+                  runat="server"
+                  placeholder="Email"
+                  class="TextBox smallTextBox"></asp:TextBox>
+              <p style="align-self: center">Password</p>
+              <asp:TextBox
+                  ID="PasswordTextBox1"
+                  runat="server"
+                  TextMode="Password"
+                  placeholder="Password"
+                  class="TextBox smallTextBox"></asp:TextBox>
+              <p style="align-self: center">Updated Feedback (Not Required)</p>
+              <asp:TextBox
+                  ID="NewFeedback"
+                  runat="server"
+                  placeholder="Password"
+                  class="TextBox smallTextBox"></asp:TextBox>
+              <div class="ButtonContainer">
+                  <asp:Button
+                      ID="search_button"
+                      class="feedbackbutton"
+                      Style="height: 5vh;"
+                      runat="server"
+                      Text="Search"
+                      OnClick="search_button_Click"></asp:Button>
+                  <asp:Button
+                      runat="server"
+                      ID="cancel_button"
+                      class="feedbackbutton"
+                      Style="height: 5vh;"
+                      Text="Cancel"
+                      OnClick="cancel_button_Click1"></asp:Button>
+                  <asp:Button
+                      ID="Update"
+                      class="feedbackbutton"
+                      Style="height: 5vh;"
+                      runat="server"
+                      Text="Update"
+                      OnClick="Update_Click"></asp:Button>
+                  <asp:Button
+                      ID="Delete"
+                      class="feedbackbutton"
+                      Style="height: 5vh;"
+                      runat="server"
+                      Text="Delete"
+                      OnClick="Delete_Click"></asp:Button>
+              </div>
+          </asp:Panel>
 
-      <asp:Panel
-        runat="server"
-        ID="FeedbackTextBox3"
-        Style="display: none;"
-        class="c2child"
-      >
-        <h2 style="text-align: center">Register</h2>
-        <p style="align-self: center">Email</p>
-        <asp:TextBox
-          runat="server"
-          placeholder="Email"
-          class="TextBox smallTextBox"
-          ID="EmailTextBox2"
-        ></asp:TextBox>
-        <p style="align-self: center">Password</p>
-        <asp:TextBox
-          ID="PasswordTextBox2"
-          runat="server"
-          placeholder="Password"
-          class="TextBox smallTextBox"
-        ></asp:TextBox>
-        <p style="align-self: center">Feedback</p>
-        <asp:TextBox
-          ID="Feedback"
-          runat="server"
-          placeholder="Feedback"
-          class="TextBox smallTextBox"
-        ></asp:TextBox>
-        <div class="ButtonContainer">
-          <asp:button
-            runat="server"
-            Text="Register"
-            class="feedbackbutton"
-            style="height: 5vh;"
-            OnClick="InsertFeedback1"
-            ID="register_button2"
-          ></asp:button>
-          <asp:button
-            runat="server"
-            OnClick="cancel_button_Click2"
-            id="register_cancel_button"
-            class="feedbackbutton"
-            style="height: 5vh;"
-            Text="Cancel"
-          ></asp:button>
-        </div>
-      </asp:Panel>
-    </div>
+          <asp:Panel
+              runat="server"
+              ID="FeedbackTextBox3"
+              Style="display: none;"
+              class="c2child">
+              <h2 style="text-align: center">Register</h2>
+              <p style="align-self: center">Email</p>
+              <asp:TextBox
+                  runat="server"
+                  placeholder="Email"
+                  class="TextBox smallTextBox"
+                  ID="EmailTextBox2"></asp:TextBox>
+              <p style="align-self: center">Password</p>
+              <asp:TextBox
+                  ID="PasswordTextBox2"
+                  TextMode="Password"
+                  runat="server"
+                  placeholder="Password"
+                  class="TextBox smallTextBox"></asp:TextBox>
+              <p style="align-self: center">Feedback</p>
+              <asp:TextBox
+                  ID="Feedback"
+                  runat="server"
+                  placeholder="Feedback"
+                  class="TextBox smallTextBox"></asp:TextBox>
+              <div class="ButtonContainer">
+                  <asp:Button
+                      runat="server"
+                      Text="Register"
+                      class="feedbackbutton"
+                      Style="height: 5vh;"
+                      OnClick="InsertFeedback1"
+                      ID="register_button2"></asp:Button>
+                  <asp:Button
+                      runat="server"
+                      OnClick="cancel_button_Click2"
+                      ID="register_cancel_button"
+                      class="feedbackbutton"
+                      Style="height: 5vh;"
+                      Text="Cancel"></asp:Button>
+              </div>
+          </asp:Panel>
+      </div>
   </div>
 </asp:Content>
