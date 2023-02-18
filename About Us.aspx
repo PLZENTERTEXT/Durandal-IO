@@ -131,12 +131,6 @@ input[type="text"] {
     <div class="container1">
       <div class="about-us-header">About Us</div>
       <div class="about-us-content">
-        <asp:SqlDataSource
-          runat="server"
-          ConnectionString="<%$ ConnectionStrings:Feedback %>"
-          SelectCommand="SELECT * FROM [Feedback]"
-          ID="ctl03"
-        ></asp:SqlDataSource>
         Durandal is a comprehensive and interactive web-based learning platform
         designed specifically for players of the popular game Honkai Impact. Our
         mission is to provide a one-stop-shop for all your learning needs

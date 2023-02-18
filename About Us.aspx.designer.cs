@@ -15,15 +15,6 @@ namespace DURANDAL_IO
     {
 
         /// <summary>
-        /// ctl03 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.SqlDataSource ctl03;
-
-        /// <summary>
         /// FeedbackTextBox1 control.
         /// </summary>
         /// <remarks>

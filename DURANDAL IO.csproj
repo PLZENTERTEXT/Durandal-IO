@@ -70,6 +70,10 @@
     <Content Include=".gitattributes" />
     <Content Include=".gitignore" />
     <Content Include="About Us.aspx" />
+    <Content Include="App_Data\Feedback.mdf" />
+    <Content Include="App_Data\Feedback_log.ldf">
+      <DependentUpon>Feedback.mdf</DependentUpon>
+    </Content>
     <Content Include="editAdminProfile.aspx" />
     <Content Include="elysianRealmMain.aspx" />
     <Content Include="Events.aspx" />
@@ -146,7 +150,6 @@
     <Content Include="Images\skill_7.gif" />
     <Content Include="Images\skill_8.gif" />
     <Content Include="login.aspx" />
-    <Content Include="Main Story.aspx" />
     <Content Include="Main.css" />
     <Content Include="Images\Stigmata_Kitten Fun_B.png" />
     <Content Include="Images\Stigmata_Kitten Fun_T.png" />
@@ -191,6 +194,7 @@
     <Content Include="Images\Stigmata_Willows_T.png" />
     <Content Include="Images\Midnight_Ataegina.png" />
     <Content Include="PE.aspx" />
+    <Content Include="Story.aspx" />
     <Content Include="Web.config" />
     <Content Include="builds.aspx" />
   </ItemGroup>
@@ -300,13 +304,6 @@
     <Compile Include="login.aspx.designer.cs">
       <DependentUpon>login.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Main Story.aspx.cs">
-      <DependentUpon>Main Story.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Main Story.aspx.designer.cs">
-      <DependentUpon>Main Story.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Main.Master.cs">
       <DependentUpon>Main.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -349,6 +346,13 @@
     </Compile>
     <Compile Include="builds.aspx.designer.cs">
       <DependentUpon>builds.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Story.aspx.cs">
+      <DependentUpon>Story.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Story.aspx.designer.cs">
+      <DependentUpon>Story.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
