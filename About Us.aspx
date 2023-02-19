@@ -32,24 +32,21 @@
 
 .container1 {
   display: flex;
-  background: linear-gradient(rgba(0, 0, 30, 0.8), rgba(0, 0, 0, 0.8));
+  background-color: #1F2326EE;
   display: flex;
   flex-direction: column;
   border-radius: 25px;
-  border: solid;
 }
 
 .container2 {
   display: flex;
   flex-direction: column;
-  background-color: rgba(0, 0, 139, 0.75);
   border-radius: 25px;
   margin-top: 5%;
   color: white;
-  border: solid;
   align-self: center;
   padding: 20px;
-  background: linear-gradient(rgba(0, 0, 30, 0.8), rgba(0, 0, 0, 0.8));
+  background-color: #1F2326EE;
 }
 
 .about-us-header {
@@ -77,7 +74,7 @@
 }
 
 .TextBox {
-  background: linear-gradient(rgba(0, 0, 30, 0.8), rgba(0, 0, 0, 0.8));
+  background-color: #1F2326EE;
 }
 
 #feedback-div {
@@ -91,7 +88,7 @@
 }
 
 .feedbackbutton {
-  background: linear-gradient(rgba(0, 0, 30, 0.8), rgba(0, 0, 0, 0.8));
+  background-color: #1F2326EE;
   color: white;
   margin-top: 10px;
   width: 40%;
