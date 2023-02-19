@@ -25,7 +25,6 @@
           border-radius:20px;
           background-color: #1F2326EE;
           margin-bottom: 30px;
-          border: 1px solid white;
           padding: 10px;
         }
 
@@ -48,7 +47,6 @@
           background-color: #1F2326EE;
           width: 30%;
           padding: 10px;
-          border: 1px solid white;
           margin-bottom: 30px;
         }
 
