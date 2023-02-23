@@ -76,7 +76,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
        <div class="auto-style3">
-        <div class="event-banner" style="margin-top: 6.0em;">
+        <div class="event-banner" style="margin-top: 8.5em;">
             <h1 class="auto-style9"><u>Events</u></h1>
             <a href="Event_1.aspx">
                 <img class="displayed" src="./Images/Ai-chan_Newsflash.png" alt="Ai-1" width="652px" height="153px"/>

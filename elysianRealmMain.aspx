@@ -93,7 +93,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="wrapper">
-        <div class="flameChasers">
+        <div class="flameChasers" style="margin-top: 8.5em;">
             <h1>Flame Chasers</h1>
             <p>Click on any of the image below to know more about their signets</p>
             <table class="chara">

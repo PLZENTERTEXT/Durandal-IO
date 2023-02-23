@@ -48,6 +48,7 @@
                     <td>:</td>
                     <td>
                         <asp:TextBox ID="pwd" runat="server" Width="281px"></asp:TextBox>
+                        <%--<asp:TextBox ID="pwd" TextMode="Password" runat="server" Width="281px"></asp:TextBox>--%>
                     </td>
                 </tr>
                 <tr>

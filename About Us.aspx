@@ -135,17 +135,7 @@ input[type="text"] {
         including guides, tutorials, and interactive learning objects, to help
         you improve your skills and knowledge of the game. Our platform is
         user-friendly and visually appealing, with a responsive design that
-        allows you to access it on multiple devices. Registered users can enjoy
-        exclusive content, participate in online discussions, and track their
-        progress with our progress tracker. We also offer a virtual lab for
-        experimenting with different character builds and strategies, as well as
-        an interactive calendar of upcoming events and updates to keep you
-        informed. We believe that multimedia elements, such as video tutorials
-        and podcasts, are essential for providing additional learning resources.
-        That's why we've incorporated them into our platform to give you a more
-        engaging and interactive learning experience. Our progress tracker
-        enables you to set and track your goals, as well as receive feedback and
-        support from other players and instructors. Our vision is to be a leader
+        allows you to access it on multiple devices. Our vision is to be a leader
         in the field of digital learning, providing innovative and engaging
         learning resources for students and educators worldwide. We're dedicated
         to making sure you have the best experience possible while learning
@@ -153,8 +143,8 @@ input[type="text"] {
         player, Durandal is the perfect platform for you.
       </div>
     </div>
-
-      <div class="container2">
+      <%-- FEEDBACK FEATURE IN APPENDIX - INCOMPLETE --%>
+      <%--<div class="container2"  style="margin-bottom: 3em;">
           <asp:Panel class="c2child" ID="FeedbackTextBox1" runat="server">
               <h2 style="text-align: center">Feedback Received</h2>
               <asp:TextBox
@@ -276,6 +266,6 @@ input[type="text"] {
                       Text="Cancel"></asp:Button>
               </div>
           </asp:Panel>
-      </div>
+      </div>--%>
   </div>
 </asp:Content>

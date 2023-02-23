@@ -32,7 +32,7 @@
     </style>
     </asp:Content>
     <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-            <div class="event-banner">
+            <div class="event-banner" style="margin-top: 8.5em;">
               <table style="margin: 0" cellspacing="0" cellpadding="1px">
                 <img src=".\Images\Ai-chan_Newsflash.png" alt="BS" height="160px" width="771px"/>
                 <h1>Ai-chan's Newsflash: Part 1 Finale Toward a New Tomorrow</h1>

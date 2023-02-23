@@ -28,51 +28,61 @@ namespace DURANDAL_IO
 
         protected void SignInButton_Click(object sender, EventArgs e)
         {
-            SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["ConnectionString"].ConnectionString);
-            con.Open();
-
-            // Check if a record exists with the same Username and Password
-            string query = "select count(*) from UserTable where Username = '" + username.Text + "' and Password = '" + pwd.Text + "'";
-            SqlCommand cmd = new SqlCommand(query, con);
-            int count = Convert.ToInt32(cmd.ExecuteScalar().ToString());
-
-            // If the record exists
-            if (count > 0)
+            if ((!string.IsNullOrEmpty(username.Text)) && (!string.IsNullOrEmpty(pwd.Text)))
             {
-                // Capture session login
-                SqlCommand cmdType = new SqlCommand("select fname, usertype from UserTable where Username = '" + username.Text + "'", con);
-                SqlDataReader dr = cmdType.ExecuteReader();
-                // SqlDataReader - Provides a way of reading a forward-only stream of rows from a SQL Server database
+                SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["ConnectionString"].ConnectionString);
+                con.Open();
 
-                string type = "";
-                string name = "";
+                // Check if a record exists with the same Username and Password
+                string query = "select count(*) from UserTable where Username = '" + username.Text + "' and Password = '" + pwd.Text + "'";
+                SqlCommand cmd = new SqlCommand(query, con);
+                int count = Convert.ToInt32(cmd.ExecuteScalar().ToString());
 
-                while (dr.Read())
+                // If the record exists
+                if (count > 0)
                 {
-                    type = dr["usertype"].ToString().Trim();
-                    name = dr["fname"].ToString().Trim();
-                    // Trim() - Removes leading & trailing whitespace
+                    // Capture session login
+                    SqlCommand cmdType = new SqlCommand("select fname, usertype from UserTable where Username = '" + username.Text + "'", con);
+                    SqlDataReader dr = cmdType.ExecuteReader();
+                    // SqlDataReader - Provides a way of reading a forward-only stream of rows from a SQL Server database
+
+                    string type = "";
+                    string name = "";
+
+                    while (dr.Read())
+                    {
+                        type = dr["usertype"].ToString().Trim();
+                        name = dr["fname"].ToString().Trim();
+                        // Trim() - Removes leading & trailing whitespace
+                    }
+
+                    Session["firstName"] = name;
+                    Session["userName"] = username.Text;
+                    Session["role"] = type;
+
+                    // Session redirect
+                    if (type == "admin")
+                        Response.Redirect("adminDashboard.aspx");
+                    else if (type == "member")
+                        Response.Redirect("memberDashboard.aspx");
+                }
+                else // If the Username and Password doesn't match
+                {
+                    errorMsg.Visible = true;
+                    errorMsg.ForeColor = System.Drawing.Color.Red;
+                    errorMsg.Text = "Username and Password mismatch!";
+                    return;
                 }
 
-                Session["firstName"] = name;
-                Session["userName"] = username.Text;
-                Session["role"] = type;
-
-                // Session redirect
-                if (type == "admin")
-                    Response.Redirect("adminDashboard.aspx");
-                else if (type == "member")
-                    Response.Redirect("memberDashboard.aspx");
+                con.Close();
             }
-            else // If the Username and Password doesn't match
+            else
             {
                 errorMsg.Visible = true;
-                errorMsg.ForeColor = System.Drawing.Color.Red;
-                errorMsg.Text = "Username and Password mismatch!";
+                errorMsg.ForeColor = System.Drawing.Color.Yellow;
+                errorMsg.Text = "Please Type In Any Input Before Submitting";
                 return;
             }
-
-            con.Close();
         }
     }
 }

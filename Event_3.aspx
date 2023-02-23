@@ -32,7 +32,7 @@
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-            <div class="event-banner">
+            <div class="event-banner" style="margin-top: 8.5em;">
             <h1>Ai-chan Newsflash: New Herrscher battlesuit Herrscher of Finality Debuts</h1>
             <table style="margin: 0" cellspacing="0" cellpadding="1px">
                 <img src=".\Images\Ai-chan_Newsflash_2.png" alt="Ai-2" height="160px" width="771px"/>
